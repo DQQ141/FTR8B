@@ -1,0 +1,9 @@
+--cpu Cortex-M0+
+-I.\RTE\_INR4-GYB_release
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include
+--pd "__UVISION_VERSION SETA 525"
+--pd "_RTE_ SETA 1"
+--pd "STM32G070xx SETA 1"
+-o "..\..\output\inr4-gyb release\startup_stm32g070xx.o"
+--depend "..\..\output\inr4-gyb release\startup_stm32g070xx.d" "startup_stm32g070xx.s"

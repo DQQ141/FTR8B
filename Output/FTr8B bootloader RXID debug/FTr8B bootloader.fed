@@ -1,0 +1,42 @@
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Fri Dec 20 14:33:12 2024
+;VERSION 0.2
+;FILE adc.o
+ADC_Init <= USED 0
+__asm___5_ADC_c_ADC_Init____REV16 <= USED 0
+__asm___5_ADC_c_ADC_Init____REVSH <= USED 0
+;FILE afhds3 crc library.o
+SYS_CalcCRC32Table <= USED 0
+SYS_CalcCRC8Table <= USED 0
+;FILE bootloader library.o
+;FILE bootloader sx1280.o
+;FILE flash.o
+__asm___7_Flash_c_1d48014e____REV16 <= USED 0
+__asm___7_Flash_c_1d48014e____REVSH <= USED 0
+;FILE led.o
+__asm___5_LED_c_LED_Bind____REV16 <= USED 0
+__asm___5_LED_c_LED_Bind____REVSH <= USED 0
+;FILE lnk timer.o
+LNKTIM_GetCounter <= USED 0
+__asm___11_LNK_timer_c_21365e66____REV16 <= USED 0
+__asm___11_LNK_timer_c_21365e66____REVSH <= USED 0
+;FILE main.o
+__asm___6_Main_c_6e68253c____REV16 <= USED 0
+__asm___6_Main_c_6e68253c____REVSH <= USED 0
+;FILE poweronch.o
+__asm___11_Poweronch_c_e458a394____REV16 <= USED 0
+__asm___11_Poweronch_c_e458a394____REVSH <= USED 0
+;FILE spi sx1280.o
+DMA1_Ch4_7_DMAMUX1_OVR_IRQHandler <= USED 0
+SPI_Transfer <= USED 0
+__asm___12_SPI_SX1280_c_43634ee2____REV16 <= USED 0
+__asm___12_SPI_SX1280_c_43634ee2____REVSH <= USED 0
+;FILE startup_stm32g070xx.o
+;FILE system receiver.o
+__asm___17_System_receiver_c_903a6da0____REV16 <= USED 0
+__asm___17_System_receiver_c_903a6da0____REVSH <= USED 0
+;FILE system.o
+SYS_DelaySysTick <= USED 0
+SYS_DisableIRQs <= USED 0
+SYS_EnableIRQs <= USED 0
+__asm___8_System_c_4560dd81____REV16 <= USED 0
+__asm___8_System_c_4560dd81____REVSH <= USED 0

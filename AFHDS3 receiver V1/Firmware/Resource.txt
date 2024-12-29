@@ -1,0 +1,206 @@
+1ms periodic interrupt
+	TIM6
+	TIM6 IRQ IRQ_PRI_LOW
+
+Low priority interrupt
+	WWDG_IRQ IRQ_PRI_LOW
+
+Medium priority interrupt
+	RTC_TAMP_IRQ IRQ_PRI_MEDIUM
+
+SX1280 GPIO
+	FTr8B FGr8B FTr12B FGr12B INR4-GYB
+		PA9 : SX1280_RESET
+		PB14: SX1280_BUSY
+		PB13: SX1280_DIO1
+		BUSY GPIO interrupt: EXTI4_15_IRQ IRQ_PRI_HIGH
+		DIO1 GPIO interrupt: EXTI4_15_IRQ IRQ_PRI_HIGH
+	INR6-HS
+		PB9 : SX1280_RESET
+		PA12: SX1280_BUSY
+		PB8 : SX1280_DIO1
+		BUSY GPIO interrupt: EXTI4_15_IRQ IRQ_PRI_HIGH
+		DIO1 GPIO interrupt: EXTI4_15_IRQ IRQ_PRI_HIGH
+	GMr
+		PA0 : SX1280_RESET
+		PB0 : SX1280_BUSY
+		PB2 : SX1280_DIO1
+		BUSY GPIO interrupt: EXTI0_1_IRQ IRQ_PRI_HIGH
+		DIO1 GPIO interrupt: EXTI2_3_IRQ IRQ_PRI_HIGH
+
+SX1280 SPI
+	FTr8B FGr8B FTr12B FGr12B INR4-GYB
+		SPI2
+		PB12: SPI2_CS
+		PB10: SPI2_SCK (AF5)
+		PB2 : SPI2_MISO (AF1)
+		PB11: SPI2_MOSI (AF0)
+		DMA channel 5: SPI2_TX
+		DMA channel 6: SPI2_RX
+		DMA1_Ch4_7_DMAMUX1_OVR_IRQHandler IRQ_PRI_REALTIME
+		BUSY GPIO interrupt: EXTI4_15_IRQ IRQ_PRI_HIGH
+	INR6-HS
+		SPI1
+		PA4 : SPI1_CS
+		PA5 : SPI1_SCK (AF0)
+		PA6 : SPI1_MISO (AF0)
+		PA7 : SPI1_MOSI (AF0)
+		DMA channel 5: SPI2_TX
+		DMA channel 6: SPI2_RX
+		DMA1_Ch4_7_DMAMUX1_OVR_IRQHandler IRQ_PRI_REALTIME
+		BUSY GPIO interrupt: EXTI4_15_IRQ IRQ_PRI_HIGH
+	GMr
+		SPI1
+		PA15: SPI1_CS
+		PB3 : SPI1_SCK (AF0)
+		PB4 : SPI1_MISO (AF0)
+		PB5 : SPI1_MOSI (AF0)
+		DMA channel 3: SPI2_TX
+		DMA channel 2: SPI2_RX
+		BUSY GPIO interrupt: EXTI0_1_IRQ IRQ_PRI_HIGH
+
+Antenna control
+	FTr8B FTr12B
+		PC13: Antenna 1
+		PC15: Antenna 2
+	INr6-HS
+		PB3 : Antenna 1
+		PB4 : Antenna 2
+	FGr8B FGr12B INR4-GYB GMr
+		NC  : Antenna 1
+		NC  : Antenna 2
+
+PA control
+	FTr8B FGr8B FTr12B FGr12B INR4-GYB
+		PC14: PA TX
+		PA10: PA RX
+	INr6-HS GMr
+		NC  : PA TX
+		NC  : PA RX
+
+Attenuator control
+	FTr8B FGr8B FTr12B FGr12B INR4-GYB INr6-HS GMr
+		NC  : Attenuator low
+		NC  : Attenuator high
+
+Link timer
+	TIM17
+	TIM17 IRQ IRQ_PRI_HIGH
+
+LED
+	FTr8B FGr8B FTr12B FGr12B INR4-GYB
+		PA12: LED output
+	INr6-HS
+		PC6 : LED output
+	GMr
+		PA5 : LED output
+	1ms periodic interrupt
+
+I2C EEPROM
+	FTr8B FGr8B FTr12B FGr12B INR4-GYB
+		I2C1
+		PB8 : I2C1_SCL (AF6)
+		PB9 : I2C1_SDA (AF6)
+	INr6-HS
+		I2C1
+		PB6 : I2C1_SCL (AF6)
+		PB7 : I2C1_SDA (AF6)
+	GMr
+		I2C1
+		PB6 : I2C1_SCL (AF1)
+		PB7 : I2C1_SDA (AF1)
+
+Battery monitor
+	FTr8B FGr8B FTr12B FGr12B INR4-GYB
+		PA6 : ADC_IN6
+		PA7 : ADC_IN7
+	INr6-HS
+		PB1 : ADC_IN9
+	GMr
+		PA1 : ADC_IN1
+	1ms periodic interrupt
+
+PWM output
+	FTr8B FGr8B
+		PA11: TIM1_CH4   PWM1  output (AF2)
+		PD0 : TIM16_CH1  PWM2  output (AF2)
+		PB3 : TIM1_CH2   PWM3  output (AF1)
+		PB4 : TIM3_CH1   PWM4  output (AF1)
+		PB6 : TIM1_CH3   PWM5  output (AF1)
+		PB0 : TIM3_CH3   PWM6  output (AF1)
+		PA2 : TIM15_CH1  PWM7  output (AF5)
+		PB15: TIM15_CH2  PWM8  output (AF5)
+	FTr12B FGr12B
+		PA11: TIM1_CH4   PWM1  output (AF2)
+		PD0 : TIM16_CH1  PWM2  output (AF2)
+		PB3 : TIM1_CH2   PWM3  output (AF1)
+		PB4 : TIM3_CH1   PWM4  output (AF1)
+		PB5 : TIM3_CH2   PWM5  output (AF1)
+		PA8 : TIM1_CH1   PWM6  output (AF2)
+		PA4 : TIM14_CH1  PWM7  output (AF4)
+		PB1 : TIM3_CH4   PWM8  output (AF1)
+		PB6 : TIM1_CH3   PWM9  output (AF1)
+		PB0 : TIM3_CH3   PWM10 output (AF1)
+		PA2 : TIM15_CH1  PWM11 output (AF5)
+		PB15: TIM15_CH2  PWM12 output (AF5)
+	INR4-GYB
+		PB6 : TIM1_CH3   PWM1  output (AF1)
+		PB0 : TIM1_CH2N  PWM2  output (AF2) 
+		PA2 : TIM15_CH1  PWM3  output (AF5)
+		PB15: TIM15_CH2  PWM4  output (AF5)
+	INR6-HS
+		PB5 : TIM3_CH2   PWM1  output (AF1)
+		PA11: TIM1_CH4   PWM2  output (AF2)
+		PA1 : TIM2_CH2   PWM3  output (AF2)
+		PB0 : TIM1_CH2N  PWM4  output (AF2)
+		PA2 : TIM2_CH3   PWM5  output (AF2)
+		PA10: TIM1_CH3   PWM6  output (AF2)
+	GMr
+		PA8 : TIM1_CH1   PWM1  output (AF2)
+		PA11: TIM1_CH4   PWM2  output (AF2)
+		PA2 : TIM2_CH3   PWM3  output (AF2)
+		PA9 : TIM1_CH2   PWM4  output (AF2)
+
+New Port
+	FTr8B FGr8B FTr12B FGr12B INR4-GYB
+		Port A
+			PA0 : USART4_TX  PWM6  output (AF4)
+			PA1 : USART4_RX  PWM6  output (AF4)
+		Port B
+			PA2 : USART2_TX  PWM7  output (AF1)
+			PA3 : USART2_RX  PWM7  output (AF1)
+		Port C
+			PA5 : USART3_TX  PWM8  output (AF4)
+			PB0 : USART3_RX  PWM8  output (AF4)
+		Port D
+			PB6 : USART1_TX  PWM9  output (AF0)
+			PB7 : USART1_RX  PWM9  output (AF0)
+	INR6-HS
+		Port A
+			PA9 : USART1_TX  PWM6  output (AF1)
+			PA10: USART1_RX  PWM6  output (AF1)
+		Port B
+			PA2 : USART2_TX  PWM7  output (AF1)
+			PA15: USART2_RX  PWM7  output (AF1)
+		Port C
+			PB2 : USART3_TX  PWM8  output (AF4)
+			PB0 : USART3_RX  PWM8  output (AF4)
+		Port D
+			PA0 : USART4_TX  PWM9  output (AF4)
+			PA1 : USART4_RX  PWM9  output (AF4)
+
+	DMA channel 1: USART1_TX and USART1_RX
+	DMA channel 2: USART2_TX and USART2_RX
+	DMA channel 3: USART3_TX and USART3_RX
+	DMA channel 4: USART4_TX and USART4_RX
+	USART1 IRQ IRQ_PRI_REALTIME
+	USART2 IRQ IRQ_PRI_REALTIME
+	USART3_4 IRQ IRQ_PRI_REALTIME
+
+	GMr
+		No New Port
+
+External bus timer
+	TIM7
+	TIM7 IRQ_PRI_REALTIME
+	

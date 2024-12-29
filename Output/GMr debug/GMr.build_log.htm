@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 admin, 2, LIC=V85FJ-UBHUK-UMA9A-10RVA-KUDXV-H041P
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.39.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      Segger\JL2CM3.dll V2.99.43.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\luoping\Desktop\GMr\trunk\AFHDS3 receiver V1\Firmware\AFHDS3 receiver V1.uvprojx
+Project File Date:  10/17/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'GMr debug'
+compiling EEPROM.c...
+assembling startup_stm32f051x8.s...
+compiling GyroGMr.c...
+compiling LNK timer.c...
+compiling LED.c...
+compiling SPI SX1280.c...
+compiling System receiver.c...
+..\System receiver.c(15): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-const-variable"
+..\System receiver.c(200): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-const-variable"
+..\System receiver.c: 2 warnings, 0 errors
+compiling I2C.c...
+I2C.c(180): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wcast-qual"
+I2C.c(182): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wcast-qual"
+I2C.c(13): warning:  #550-D: variable "I2C_Initialized"  was set but never used
+  static BOOL I2C_Initialized;
+I2C.c: 3 warnings, 0 errors
+compiling ADC.c...
+compiling Main.c...
+Main.c(1119): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1121): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(1145): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1147): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(1268): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1270): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(1315): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1317): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(1384): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1386): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(1409): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1411): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(104): warning:  #550-D: variable "APP_ActivateReceiverRole"  was set but never used
+  static eLNK_ReceiverRole APP_ActivateReceiverRole;
+Main.c: 13 warnings, 0 errors
+compiling NPT timer.c...
+compiling System.c...
+linking...
+Program Size: Code=35168 RO-data=2288 RW-data=432 ZI-data=5000  
+"..\..\Output\GMr debug\GMr.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F0xx_DFP.2.1.1.pack
+                Keil::STM32F0xx_DFP@2.1.1
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_GMr_debug
+  D:/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/Arm/Packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

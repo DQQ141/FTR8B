@@ -1,0 +1,146 @@
+Dependencies for Project 'AFHDS3 receiver', Target 'FBr4 RXID debug': (DO NOT MODIFY !)
+CompilerVersion: 6140001::V6.14.1::ARMCLANG
+F (.\startup_stm32f051x8.s)(0x61E7A9CC)()
+F (.\startup_stm32g070xx.s)(0x61E7A9CC)(--cpu Cortex-M0+ -g-I.\RTE\_FBr4_RXID_debug-IC:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include--pd "__UVISION_VERSION SETA 532"--pd "_RTE_ SETA 1"--pd "STM32G070xx SETA 1"--pd "_RTE_ SETA 1"-o "..\..\output\fbr4 bootloader rxid debug\startup_stm32g070xx.o"--depend "..\..\output\fbr4 bootloader rxid debug\startup_stm32g070xx.d")
+F (.\startup_stm32g071xx.s)(0x61E7A9CC)()
+F (.\Flash.c)(0x61E7B022)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_FBr4_RXID_debug-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32G070xx -D_RTE_ -DPN_FBR4 -DPHY_SX1280 -DBOOTLOADER -DFLASH_RXID -DDEBUG-o "../../output/fbr4 bootloader rxid debug/flash.o" -MD)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x5FA251E4)
+I (System.h)(0x61E7B4D7)
+I (..\..\Include\System definitions.h)(0x61E7A9C5)
+I (..\include\System receiver.h)(0x61E7B206)
+I (Flash.h)(0x61E7B29A)
+F (..\LNK timer.c)(0x61E7B022)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_FBr4_RXID_debug-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32G070xx -D_RTE_ -DPN_FBR4 -DPHY_SX1280 -DBOOTLOADER -DFLASH_RXID -DDEBUG-o "../../output/fbr4 bootloader rxid debug/lnk timer.o" -MD)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x5FA251E4)
+I (..\..\Include\System definitions.h)(0x61E7A9C5)
+I (System.h)(0x61E7B4D7)
+I (..\include\LNK timer.h)(0x61E7A9CB)
+F (..\LED.c)(0x61E7B022)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_FBr4_RXID_debug-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32G070xx -D_RTE_ -DPN_FBR4 -DPHY_SX1280 -DBOOTLOADER -DFLASH_RXID -DDEBUG-o "../../output/fbr4 bootloader rxid debug/led.o" -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51128E)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x5FA251E4)
+I (..\..\Include\System definitions.h)(0x61E7A9C5)
+I (System.h)(0x61E7B4D7)
+I (..\include\LED.h)(0x61E7A9CB)
+I (..\include\LED private.h)(0x61E7A9CB)
+F (.\Main.c)(0x61EA5703)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_FBr4_RXID_debug-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32G070xx -D_RTE_ -DPN_FBR4 -DPHY_SX1280 -DBOOTLOADER -DFLASH_RXID -DDEBUG-o "../../output/fbr4 bootloader rxid debug/main.o" -MD)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x5FA251E4)
+I (..\..\Include\System definitions.h)(0x61E7A9C5)
+I (System.h)(0x61E7B4D7)
+I (..\..\Include\AFHDS3 CRC library.h)(0x61E7A9C5)
+I (..\include\LED.h)(0x61E7A9CB)
+I (..\include\SPI SX1280.h)(0x61E7B503)
+I (..\..\Include\PHY SX1280.h)(0x61E7A9C5)
+I (..\..\Include\PHY SX1280 hardware.h)(0x61E7A9C5)
+I (..\include\Bootloader library.h)(0x61E7A9CB)
+I (..\include\Bootloader PHY.h)(0x61E7A9CB)
+I (..\include\Bootloader SX1280.h)(0x61E7A9CB)
+I (..\..\Include\Update.h)(0x61E7B416)
+I (..\include\System receiver.h)(0x61E7B206)
+I (..\..\AFHDS3 receiver V1\Poweronch.h)(0x61E7A9CC)
+I (Main.h)(0x61E7B517)
+F (..\SPI SX1280.c)(0x61E7B022)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_FBr4_RXID_debug-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32G070xx -D_RTE_ -DPN_FBR4 -DPHY_SX1280 -DBOOTLOADER -DFLASH_RXID -DDEBUG-o "../../output/fbr4 bootloader rxid debug/spi sx1280.o" -MD)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x5FA251E4)
+I (..\..\Include\System definitions.h)(0x61E7A9C5)
+I (System.h)(0x61E7B4D7)
+I (..\..\Include\PHY SX1280.h)(0x61E7A9C5)
+I (..\..\Include\PHY SX1280 hardware.h)(0x61E7A9C5)
+I (..\include\SPI SX1280.h)(0x61E7B503)
+F (.\System.c)(0x61E7B7FD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_FBr4_RXID_debug-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32G070xx -D_RTE_ -DPN_FBR4 -DPHY_SX1280 -DBOOTLOADER -DFLASH_RXID -DDEBUG-o "../../output/fbr4 bootloader rxid debug/system.o" -MD)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x5FA251E4)
+I (..\..\Include\System definitions.h)(0x61E7A9C5)
+I (System.h)(0x61E7B4D7)
+I (..\include\LED.h)(0x61E7A9CB)
+F (..\System receiver.c)(0x61E7ABAD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_FBr4_RXID_debug-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32G070xx -D_RTE_ -DPN_FBR4 -DPHY_SX1280 -DBOOTLOADER -DFLASH_RXID -DDEBUG-o "../../output/fbr4 bootloader rxid debug/system receiver.o" -MD)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x5FA251E4)
+I (..\..\Include\System definitions.h)(0x61E7A9C5)
+I (System.h)(0x61E7B4D7)
+I (..\..\Include\Update.h)(0x61E7B416)
+I (..\include\System receiver.h)(0x61E7B206)
+F (.\Encryption.c)(0x61E7B022)()
+F (..\Poweronch.c)(0x61E7B022)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_FBr4_RXID_debug-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32G070xx -D_RTE_ -DPN_FBR4 -DPHY_SX1280 -DBOOTLOADER -DFLASH_RXID -DDEBUG-o "../../output/fbr4 bootloader rxid debug/poweronch.o" -MD)
+I (..\..\AFHDS3 receiver V1\Poweronch.h)(0x61E7A9CC)
+I (..\..\Include\System definitions.h)(0x61E7A9C5)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x5FA251E4)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x5FA251E4)
+F (.\Resource.txt)(0x61E7A9CC)()
+F (..\..\Lib\AFHDS3 CRC library M0+ release.lib)(0x61E7A9C3)()
+F (..\..\Lib\Receiver bootloader SX1280 M0+ release.lib)(0x61E7A9C3)()
+F (..\Encryption library M0 release.lib)(0x61E7A9CB)()

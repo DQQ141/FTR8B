@@ -1,0 +1,253 @@
+Dependencies for Project 'AFHDS3 receiver V1', Target 'GMr debug': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_stm32f051x8.s)(0x670F9B06)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "STM32F051x8 SETA 1" --pd "_RTE_ SETA 1"-o "..\..\output\gmr debug\startup_stm32f051x8.o" --depend "..\..\output\gmr debug\startup_stm32f051x8.d")
+F (.\startup_stm32g070xx.s)(0x670F9B06)()
+F (.\startup_stm32g071xx.s)(0x670F9B06)()
+F (.\ADC.c)(0x670F9B06)(--c99 -c --cpu Cortex-M0 -g -O1 -Otime --apcs=interwork --split_sections -I . -I ..\include -I ..\.. -I ..\..\Include -I "..\..\AFHDS3 receiver V1"-I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DPN_GMR -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="0" -DDEBUG-o "..\..\output\gmr debug\adc.o" --omf_browse "..\..\output\gmr debug\adc.crf" --depend "..\..\output\gmr debug\adc.d")
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x670F92D0)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f051x8.h)(0x670F92D0)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x670F92D0)
+I (Main.h)(0x670F9B06)
+I (..\..\Include\System definitions.h)(0x670F9B01)
+I (..\..\Include\i-Bus 1 device library.h)(0x670F9B01)
+I (..\..\Include\i-Bus.h)(0x670F9B01)
+I (..\..\Include\i-Bus 2 device library.h)(0x670F9B01)
+I (..\..\Include\SES AFHDS3 external.h)(0x670F9B01)
+I (..\..\Include\i-Bus 2.h)(0x670F9B01)
+I (..\..\Include\USART.h)(0x670F9B01)
+I (..\include\LED.h)(0x670F9B04)
+I (..\..\Include\New Port.h)(0x670F9B01)
+I (..\..\Include\AFHDS3 queue low priority IRQ library.h)(0x670F9B01)
+I (..\..\Include\AFHDS3 queue medium priority IRQ library.h)(0x670F9B01)
+I (..\..\Include\SES AFHDS3.h)(0x670F9B01)
+I (..\..\Include\External bus.h)(0x670F9B01)
+I (..\..\Include\TRA AFHDS3.h)(0x670F9B01)
+I (..\..\Include\LNK AFHDS3.h)(0x670F9B01)
+I (..\..\Include\PHY.h)(0x670F9B01)
+I (..\..\Include\PHY external.h)(0x670F9B01)
+I (..\..\Include\PHY SX1280.h)(0x670F9B01)
+I (..\..\Include\PHY SX1280 hardware.h)(0x670F9B01)
+I (..\..\Include\LNK AFHDS3 receiver external.h)(0x670F9B01)
+I (System.h)(0x670F9B06)
+I (ADC.h)(0x670F9B06)
+F (.\Bmp280.c)(0x670F9B05)()
+F (.\EEPROM.c)(0x670F9B05)(--c99 -c --cpu Cortex-M0 -g -O1 -Otime --apcs=interwork --split_sections -I . -I ..\include -I ..\.. -I ..\..\Include -I "..\..\AFHDS3 receiver V1"-I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DPN_GMR -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="0" -DDEBUG-o "..\..\output\gmr debug\eeprom.o" --omf_browse "..\..\output\gmr debug\eeprom.crf" --depend "..\..\output\gmr debug\eeprom.d")
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (..\..\Include\System definitions.h)(0x670F9B01)
+I (System.h)(0x670F9B06)
+I (I2C.h)(0x670F9B05)
+I (EEPROM.h)(0x670F9B05)
+F (.\Encryption.c)(0x670F9B06)()
+F (..\SPI SX1280.c)(0x670F9B04)(--c99 -c --cpu Cortex-M0 -g -O1 -Otime --apcs=interwork --split_sections -I . -I ..\include -I ..\.. -I ..\..\Include -I "..\..\AFHDS3 receiver V1"-I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DPN_GMR -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="0" -DDEBUG-o "..\..\output\gmr debug\spi sx1280.o" --omf_browse "..\..\output\gmr debug\spi sx1280.crf" --depend "..\..\output\gmr debug\spi sx1280.d")
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x670F92D0)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f051x8.h)(0x670F92D0)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x670F92D0)
+I (..\..\Include\System definitions.h)(0x670F9B01)
+I (.\System.h)(0x670F9B06)
+I (..\..\Include\PHY SX1280.h)(0x670F9B01)
+I (..\..\Include\PHY SX1280 hardware.h)(0x670F9B01)
+I (..\include\SPI SX1280.h)(0x670F9B04)
+F (.\Flash.c)(0x670F9B06)()
+F (.\FC.c)(0x670F9B06)()
+F (.\Gyro.c)(0x670F9B06)()
+F (.\GyroFC.c)(0x670F9B05)()
+F (.\PID FC.c)(0x670F9B05)()
+F (.\GyroGMr.c)(0x6710D5DF)(--c99 -c --cpu Cortex-M0 -g -O1 -Otime --apcs=interwork --split_sections -I . -I ..\include -I ..\.. -I ..\..\Include -I "..\..\AFHDS3 receiver V1"-I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DPN_GMR -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="0" -DDEBUG-o "..\..\output\gmr debug\gyrogmr.o" --omf_browse "..\..\output\gmr debug\gyrogmr.crf" --depend "..\..\output\gmr debug\gyrogmr.d")
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (I2C.h)(0x670F9B05)
+I (..\..\Include\System definitions.h)(0x670F9B01)
+I (EEPROM.h)(0x670F9B05)
+I (Main.h)(0x670F9B06)
+I (..\..\Include\i-Bus 1 device library.h)(0x670F9B01)
+I (..\..\Include\i-Bus.h)(0x670F9B01)
+I (..\..\Include\i-Bus 2 device library.h)(0x670F9B01)
+I (..\..\Include\SES AFHDS3 external.h)(0x670F9B01)
+I (..\..\Include\i-Bus 2.h)(0x670F9B01)
+I (..\..\Include\USART.h)(0x670F9B01)
+I (..\include\LED.h)(0x670F9B04)
+I (..\..\Include\New Port.h)(0x670F9B01)
+I (..\..\Include\AFHDS3 queue low priority IRQ library.h)(0x670F9B01)
+I (..\..\Include\AFHDS3 queue medium priority IRQ library.h)(0x670F9B01)
+I (..\..\Include\SES AFHDS3.h)(0x670F9B01)
+I (..\..\Include\External bus.h)(0x670F9B01)
+I (..\..\Include\TRA AFHDS3.h)(0x670F9B01)
+I (..\..\Include\LNK AFHDS3.h)(0x670F9B01)
+I (..\..\Include\PHY.h)(0x670F9B01)
+I (..\..\Include\PHY external.h)(0x670F9B01)
+I (..\..\Include\PHY SX1280.h)(0x670F9B01)
+I (..\..\Include\PHY SX1280 hardware.h)(0x670F9B01)
+I (..\..\Include\LNK AFHDS3 receiver external.h)(0x670F9B01)
+I (..\..\Include\AFHDS3 CRC library.h)(0x670F9B01)
+I (GyroGMr.h)(0x670F9B05)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+F (.\IMU.c)(0x670F9B06)()
+F (.\I2C.c)(0x670F9B05)(--c99 -c --cpu Cortex-M0 -g -O1 -Otime --apcs=interwork --split_sections -I . -I ..\include -I ..\.. -I ..\..\Include -I "..\..\AFHDS3 receiver V1"-I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DPN_GMR -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="0" -DDEBUG-o "..\..\output\gmr debug\i2c.o" --omf_browse "..\..\output\gmr debug\i2c.crf" --depend "..\..\output\gmr debug\i2c.d")
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x670F92D0)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f051x8.h)(0x670F92D0)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x670F92D0)
+I (..\..\Include\System definitions.h)(0x670F9B01)
+I (System.h)(0x670F9B06)
+I (I2C.h)(0x670F9B05)
+F (..\LNK timer.c)(0x670F9B04)(--c99 -c --cpu Cortex-M0 -g -O1 -Otime --apcs=interwork --split_sections -I . -I ..\include -I ..\.. -I ..\..\Include -I "..\..\AFHDS3 receiver V1"-I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DPN_GMR -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="0" -DDEBUG-o "..\..\output\gmr debug\lnk timer.o" --omf_browse "..\..\output\gmr debug\lnk timer.crf" --depend "..\..\output\gmr debug\lnk timer.d")
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x670F92D0)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f051x8.h)(0x670F92D0)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x670F92D0)
+I (..\..\Include\System definitions.h)(0x670F9B01)
+I (.\System.h)(0x670F9B06)
+I (..\include\LNK timer.h)(0x670F9B04)
+F (..\LED.c)(0x670F9B04)(--c99 -c --cpu Cortex-M0 -g -O1 -Otime --apcs=interwork --split_sections -I . -I ..\include -I ..\.. -I ..\..\Include -I "..\..\AFHDS3 receiver V1"-I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DPN_GMR -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="0" -DDEBUG-o "..\..\output\gmr debug\led.o" --omf_browse "..\..\output\gmr debug\led.crf" --depend "..\..\output\gmr debug\led.d")
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x670F92D0)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f051x8.h)(0x670F92D0)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x670F92D0)
+I (..\..\Include\System definitions.h)(0x670F9B01)
+I (.\System.h)(0x670F9B06)
+I (..\include\LED.h)(0x670F9B04)
+I (..\include\LED private.h)(0x670F9B04)
+F (.\Main.c)(0x670F9B06)(--c99 -c --cpu Cortex-M0 -g -O1 -Otime --apcs=interwork --split_sections -I . -I ..\include -I ..\.. -I ..\..\Include -I "..\..\AFHDS3 receiver V1"-I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DPN_GMR -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="0" -DDEBUG-o "..\..\output\gmr debug\main.o" --omf_browse "..\..\output\gmr debug\main.crf" --depend "..\..\output\gmr debug\main.d")
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x670F92D0)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f051x8.h)(0x670F92D0)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x670F92D0)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (..\..\Include\System definitions.h)(0x670F9B01)
+I (System.h)(0x670F9B06)
+I (..\..\Include\AFHDS3 CRC library.h)(0x670F9B01)
+I (..\..\Include\AFHDS3 PWM frequencies packing library.h)(0x670F9B01)
+I (..\..\Include\SES AFHDS3 external.h)(0x670F9B01)
+I (..\..\Include\i-Bus 2.h)(0x670F9B01)
+I (..\..\Include\AFHDS3 queue low priority IRQ library.h)(0x670F9B01)
+I (..\..\Include\AFHDS3 RC channels packing library.h)(0x670F9B01)
+I (..\include\System receiver.h)(0x670F9B04)
+I (ADC.h)(0x670F9B06)
+I (EEPROM.h)(0x670F9B05)
+I (I2C.h)(0x670F9B05)
+I (..\..\Include\i-Bus.h)(0x670F9B01)
+I (..\..\Include\i-Bus 1.h)(0x670F9B01)
+I (..\include\LED.h)(0x670F9B04)
+I (Main.h)(0x670F9B06)
+I (..\..\Include\i-Bus 1 device library.h)(0x670F9B01)
+I (..\..\Include\i-Bus 2 device library.h)(0x670F9B01)
+I (..\..\Include\USART.h)(0x670F9B01)
+I (..\..\Include\New Port.h)(0x670F9B01)
+I (..\..\Include\AFHDS3 queue medium priority IRQ library.h)(0x670F9B01)
+I (..\..\Include\SES AFHDS3.h)(0x670F9B01)
+I (..\..\Include\External bus.h)(0x670F9B01)
+I (..\..\Include\TRA AFHDS3.h)(0x670F9B01)
+I (..\..\Include\LNK AFHDS3.h)(0x670F9B01)
+I (..\..\Include\PHY.h)(0x670F9B01)
+I (..\..\Include\PHY external.h)(0x670F9B01)
+I (..\..\Include\PHY SX1280.h)(0x670F9B01)
+I (..\..\Include\PHY SX1280 hardware.h)(0x670F9B01)
+I (..\..\Include\LNK AFHDS3 receiver external.h)(0x670F9B01)
+I (..\include\NPT timer.h)(0x670F9B04)
+I (PWM adapter.h)(0x670F9B06)
+I (..\include\SPI SX1280.h)(0x670F9B04)
+I (GyroGMr.h)(0x670F9B05)
+I (Main private.h)(0x670F9B06)
+F (.\NPT timer.c)(0x670F9B05)(--c99 -c --cpu Cortex-M0 -g -O1 -Otime --apcs=interwork --split_sections -I . -I ..\include -I ..\.. -I ..\..\Include -I "..\..\AFHDS3 receiver V1"-I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DPN_GMR -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="0" -DDEBUG-o "..\..\output\gmr debug\npt timer.o" --omf_browse "..\..\output\gmr debug\npt timer.crf" --depend "..\..\output\gmr debug\npt timer.d")
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x670F92D0)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f051x8.h)(0x670F92D0)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x670F92D0)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (..\..\Include\System definitions.h)(0x670F9B01)
+I (System.h)(0x670F9B06)
+I (..\include\NPT timer.h)(0x670F9B04)
+I (NPT timer private.h)(0x670F9B05)
+F (.\PWM adapter.c)(0x670F9B06)()
+F (.\System.c)(0x670F9B06)(--c99 -c --cpu Cortex-M0 -g -O1 -Otime --apcs=interwork --split_sections -I . -I ..\include -I ..\.. -I ..\..\Include -I "..\..\AFHDS3 receiver V1"-I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DPN_GMR -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="0" -DDEBUG-o "..\..\output\gmr debug\system.o" --omf_browse "..\..\output\gmr debug\system.crf" --depend "..\..\output\gmr debug\system.d")
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x670F92D0)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f051x8.h)(0x670F92D0)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x670F92D0)
+I (..\..\Include\System definitions.h)(0x670F9B01)
+I (System.h)(0x670F9B06)
+I (..\..\Include\AFHDS3 queue low priority IRQ library.h)(0x670F9B01)
+I (..\include\System receiver.h)(0x670F9B04)
+I (ADC.h)(0x670F9B06)
+I (..\include\LED.h)(0x670F9B04)
+I (..\..\Include\New Port.h)(0x670F9B01)
+I (..\..\Include\AFHDS3 queue medium priority IRQ library.h)(0x670F9B01)
+I (..\..\Include\i-Bus.h)(0x670F9B01)
+I (..\..\Include\i-Bus 2.h)(0x670F9B01)
+I (..\..\Include\SES AFHDS3 external.h)(0x670F9B01)
+I (..\..\Include\USART.h)(0x670F9B01)
+I (..\..\Include\SES AFHDS3.h)(0x670F9B01)
+I (..\..\Include\External bus.h)(0x670F9B01)
+I (..\..\Include\TRA AFHDS3.h)(0x670F9B01)
+I (..\..\Include\LNK AFHDS3.h)(0x670F9B01)
+I (..\..\Include\PHY.h)(0x670F9B01)
+I (..\..\Include\PHY external.h)(0x670F9B01)
+I (..\..\Include\PHY SX1280.h)(0x670F9B01)
+I (..\..\Include\PHY SX1280 hardware.h)(0x670F9B01)
+I (..\..\Include\LNK AFHDS3 receiver external.h)(0x670F9B01)
+F (..\System receiver.c)(0x670F9B05)(--c99 -c --cpu Cortex-M0 -g -O1 -Otime --apcs=interwork --split_sections -I . -I ..\include -I ..\.. -I ..\..\Include -I "..\..\AFHDS3 receiver V1"-I.\RTE\_GMr_debug-ID:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DPN_GMR -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="0" -DDEBUG-o "..\..\output\gmr debug\system receiver.o" --omf_browse "..\..\output\gmr debug\system receiver.crf" --depend "..\..\output\gmr debug\system receiver.d")
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x670F92D0)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f051x8.h)(0x670F92D0)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (D:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (D:\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x670F92D0)
+I (..\..\Include\System definitions.h)(0x670F9B01)
+I (.\System.h)(0x670F9B06)
+I (..\..\Include\Update.h)(0x670F9B01)
+I (..\include\System receiver.h)(0x670F9B04)
+F (.\USART New Port.c)(0x670F9B06)()
+F (..\..\Lib\AFHDS3 CRC library M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\AFHDS3 PWM frequencies packing library M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\AFHDS3 RC channels packing library M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\AFHDS3 queue low priority IRQ library 8Q4Q M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\AFHDS3 queue medium priority IRQ library 8Q32Q M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\AFHDS3 simple random number library M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\AFHDS3 SX1280 receiver V1 M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\i-Bus 1 device library M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\i-Bus 2 device library M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\New Port 1 channel 1 port M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\New Port 4 channels 0 port M0 release.lib)(0x670F9B06)()
+F (..\..\Lib\New Port 4 channels 4 ports M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\New Port 6 channels 4 ports M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\New Port 8 channels 4 ports M0+ release.lib)(0x670F9B06)()
+F (..\..\Lib\New Port 12 channels 4 ports M0+ release.lib)(0x670F9B06)()
+F (..\Encryption library M0 release.lib)(0x670F9B04)()
+F (.\Resource.txt)(0x670F9B06)()

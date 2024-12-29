@@ -1,0 +1,39 @@
+1ms periodic interrupt
+	TIM6
+	TIM6 IRQ IRQ_PRI_LOW
+
+Bind
+	PA15
+
+SX1280 GPIO
+	PA9 : SX1280_RESET
+	PB14: SX1280_BUSY
+	PB13: SX1280_DIO1
+	DIO1 GPIO interrupt: EXTI4_15_IRQ IRQ_PRI_HIGH
+
+SX1280 SPI
+	SPI2
+	PB12: SPI1_CS
+	PB10: SPI1_SCK (AF5)
+	PB2 : SPI1_MISO (AF1)
+	PB11: SPI1_MOSI (AF0)
+
+Antenna control
+	PC13: Antenna 1
+	PC15: Antenna 2
+
+PA control
+	PC14: PA TX
+	PA10: PA RX
+
+Attenuator control
+	PC7 : Attenuator low
+	PC6 : Attenuator high	
+
+Link timer
+	TIM14
+	TIM14 IRQ IRQ_PRI_HIGH
+
+LED
+	PA12: LED output
+	1ms periodic interrupt

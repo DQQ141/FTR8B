@@ -1,0 +1,6 @@
+--cpu Cortex-M0 --apcs=interwork 
+-I.\RTE\_GMr_release
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32F051x8 SETA 1"
+-o "..\..\output\gmr release\startup_stm32f051x8.o" --depend "..\..\output\gmr release\startup_stm32f051x8.d" "startup_stm32f051x8.s"

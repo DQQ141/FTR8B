@@ -1,0 +1,142 @@
+Dependencies for Project 'AFHDS3 receiver', Target 'INR4-GYB debug': (DO NOT MODIFY !)
+F (.\startup_stm32f051x8.s)(0x640154A9)()
+F (.\startup_stm32g070xx.s)(0x640154A8)(--cpu Cortex-M0+ -g-I.\RTE\_INR4-GYB_debug-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include--pd "__UVISION_VERSION SETA 525"--pd "_RTE_ SETA 1"--pd "STM32G070xx SETA 1"-o "..\..\output\inr4-gyb bootloader debug\startup_stm32g070xx.o"--depend "..\..\output\inr4-gyb bootloader debug\startup_stm32g070xx.d")
+F (.\startup_stm32g071xx.s)(0x640154A8)()
+F (.\Flash.c)(0x640154A8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_INR4-GYB_debug-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.4.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32G070xx -DPN_INR4_GYB -DPHY_SX1280 -DBOOTLOADER -DDEBUG-o "../../output/inr4-gyb bootloader debug/flash.o" -MD)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AA6413A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang_ltm.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x60D1698C)
+I (System.h)(0x640154A9)
+I (..\..\Include\System definitions.h)(0x640154A2)
+I (..\include\System receiver.h)(0x640154A8)
+I (Flash.h)(0x640154A8)
+F (..\LNK timer.c)(0x640154A8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_INR4-GYB_debug-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.4.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32G070xx -DPN_INR4_GYB -DPHY_SX1280 -DBOOTLOADER -DDEBUG-o "../../output/inr4-gyb bootloader debug/lnk timer.o" -MD)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AA6413A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang_ltm.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x60D1698C)
+I (..\..\Include\System definitions.h)(0x640154A2)
+I (System.h)(0x640154A9)
+I (..\include\LNK timer.h)(0x640154A8)
+F (.\ADC.c)(0x640154A8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_INR4-GYB_debug-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.4.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32G070xx -DPN_INR4_GYB -DPHY_SX1280 -DBOOTLOADER -DDEBUG-o "../../output/inr4-gyb bootloader debug/adc.o" -MD)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AA6413A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang_ltm.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x60D1698C)
+I (System.h)(0x640154A9)
+I (..\..\Include\System definitions.h)(0x640154A2)
+I (ADC.h)(0x640154A8)
+F (..\LED.c)(0x640154A8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_INR4-GYB_debug-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.4.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32G070xx -DPN_INR4_GYB -DPHY_SX1280 -DBOOTLOADER -DDEBUG-o "../../output/inr4-gyb bootloader debug/led.o" -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5AA6413A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AA6413A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang_ltm.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x60D1698C)
+I (..\..\Include\System definitions.h)(0x640154A2)
+I (System.h)(0x640154A9)
+I (..\include\LED.h)(0x640154A8)
+I (..\include\LED private.h)(0x640154A8)
+F (.\Main.c)(0x640154A8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_INR4-GYB_debug-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.4.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32G070xx -DPN_INR4_GYB -DPHY_SX1280 -DBOOTLOADER -DDEBUG-o "../../output/inr4-gyb bootloader debug/main.o" -MD)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AA6413A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang_ltm.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x60D1698C)
+I (..\..\Include\System definitions.h)(0x640154A2)
+I (System.h)(0x640154A9)
+I (..\..\Include\AFHDS3 CRC library.h)(0x640154A2)
+I (..\include\LED.h)(0x640154A8)
+I (..\include\SPI SX1280.h)(0x640154A8)
+I (..\..\Include\PHY SX1280.h)(0x640154A2)
+I (..\..\Include\PHY SX1280 hardware.h)(0x640154A2)
+I (..\include\Bootloader library.h)(0x640154A8)
+I (..\include\Bootloader PHY.h)(0x640154A8)
+I (..\include\Bootloader SX1280.h)(0x640154A8)
+I (..\..\Include\Update.h)(0x640154A2)
+I (..\include\System receiver.h)(0x640154A8)
+I (..\..\AFHDS3 receiver V1\Poweronch.h)(0x640154A9)
+I (Main.h)(0x640154A8)
+F (..\SPI SX1280.c)(0x640154A8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_INR4-GYB_debug-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.4.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32G070xx -DPN_INR4_GYB -DPHY_SX1280 -DBOOTLOADER -DDEBUG-o "../../output/inr4-gyb bootloader debug/spi sx1280.o" -MD)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AA6413A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang_ltm.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x60D1698C)
+I (..\..\Include\System definitions.h)(0x640154A2)
+I (System.h)(0x640154A9)
+I (..\..\Include\PHY SX1280.h)(0x640154A2)
+I (..\..\Include\PHY SX1280 hardware.h)(0x640154A2)
+I (..\include\SPI SX1280.h)(0x640154A8)
+F (.\System.c)(0x640154A9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_INR4-GYB_debug-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.4.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32G070xx -DPN_INR4_GYB -DPHY_SX1280 -DBOOTLOADER -DDEBUG-o "../../output/inr4-gyb bootloader debug/system.o" -MD)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AA6413A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang_ltm.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x60D1698C)
+I (..\..\Include\System definitions.h)(0x640154A2)
+I (System.h)(0x640154A9)
+I (..\include\LED.h)(0x640154A8)
+F (..\System receiver.c)(0x6401B47F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_INR4-GYB_debug-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.4.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32G070xx -DPN_INR4_GYB -DPHY_SX1280 -DBOOTLOADER -DDEBUG-o "../../output/inr4-gyb bootloader debug/system receiver.o" -MD)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AA6413A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang_ltm.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x60D1698C)
+I (..\..\Include\System definitions.h)(0x640154A2)
+I (System.h)(0x640154A9)
+I (..\..\Include\Update.h)(0x640154A2)
+I (..\include\System receiver.h)(0x640154A8)
+F (.\Encryption.c)(0x640154A9)()
+F (..\Poweronch.c)(0x640154A8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../../Include -I "../../AFHDS3 receiver V1"-I./RTE/_INR4-GYB_debug-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.4.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32G070xx -DPN_INR4_GYB -DPHY_SX1280 -DBOOTLOADER -DDEBUG-o "../../output/inr4-gyb bootloader debug/poweronch.o" -MD)
+I (..\..\AFHDS3 receiver V1\Poweronch.h)(0x640154A9)
+I (..\..\Include\System definitions.h)(0x640154A2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x60D1698C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AA6413A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang_ltm.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x60D1698C)
+F (.\Resource.txt)(0x640154A9)()
+F (..\..\Lib\AFHDS3 CRC library M0+ release.lib)(0x640154AA)()
+F (..\..\Lib\Receiver bootloader SX1280 M0+ release.lib)(0x640154AA)()
+F (..\Encryption library M0 release.lib)(0x640154A8)()

@@ -1,0 +1,10 @@
+--cpu Cortex-M0+
+-I.\RTE\_FGr4B_release
+-IC:\Users\yangkunlin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+-IC:\Users\yangkunlin\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include
+--pd "__UVISION_VERSION SETA 532"
+--pd "_RTE_ SETA 1"
+--pd "STM32G070xx SETA 1"
+--pd "_RTE_ SETA 1"
+-o "..\..\output\fgr4b release\startup_stm32g070xx.o"
+--depend "..\..\output\fgr4b release\startup_stm32g070xx.d" "startup_stm32g070xx.s"

@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 flysky, 2, LIC=IK1BF-6B2AN-Z9ZG9-47W3N-7KGD7-JCBRX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.9
+Assembler:       Armasm.exe V6.9
+Linker/Locator:  ArmLink.exe V6.9
+Library Manager: ArmAr.exe V6.9
+Hex Converter:   FromElf.exe V6.9
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DARMCM1.DLL V1.19.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TARMCM1.DLL V1.14.0.0
+ 
+<h2>Project:</h2>
+C:\Users\liangjie.FLYSKY\Desktop\6887P\FS-AFHDS3-Receiver-Nport2.0\trunk\AFHDS3 receiver V1\Firmware\AFHDS3 receiver V1.uvprojx
+Project File Date:  03/03/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.9', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'INR4-GYB debug'
+assembling startup_stm32g070xx.s...
+compiling EEPROM.c...
+compiling PID FC.c...
+compiling I2C.c...
+compiling ADC.c...
+compiling System receiver.c...
+compiling LNK timer.c...
+compiling LED.c...
+compiling SPI SX1280.c...
+compiling PWM adapter.c...
+compiling System.c...
+compiling NPT timer.c...
+compiling USART New Port.c...
+Gyro.c(125): warning: unused variable 'SteeringSVCOutTemp1' [-Wunused-variable]
+    static signed long     SteeringSVCOut=0,SteeringSVCOutTemp=0,SteeringSVCOutTemp1=0;
+                                                                 ^
+Gyro.c(118): warning: unused variable 'SlowDownPoint' [-Wunused-variable]
+    static signed short   SteeringChoutputOld=0,SlowDownPoint=0;    
+                                                ^
+2 warnings generated.
+compiling Gyro.c...
+compiling Main.c...
+linking...
+Program Size: Code=58724 RO-data=2500 RW-data=596 ZI-data=7180  
+"..\..\Output\INR4-GYB debug\INR4-GYB.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32G0xx_DFP.1.4.0.pack
+                Keil.STM32G0xx_DFP.1.4.0
+                STMicroelectronics STM32G0 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_INR4-GYB_debug
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

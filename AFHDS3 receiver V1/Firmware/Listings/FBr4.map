@@ -1,0 +1,1080 @@
+Component: ARM Compiler 6.14.1 Tool: armlink [5db06d00]
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing afhds3 crc library.o(.text), (0 bytes).
+    Removing afhds3 crc library.o(.ARM.exidx.text.SYS_CalcCRC8Table), (8 bytes).
+    Removing afhds3 crc library.o(.text.SYS_CalcCRC32), (124 bytes).
+    Removing afhds3 crc library.o(.ARM.exidx.text.SYS_CalcCRC32), (8 bytes).
+    Removing afhds3 crc library.o(.ARM.exidx.text.SYS_CalcCRC32Table), (8 bytes).
+    Removing afhds3 pwm frequencies packing library.o(.text), (0 bytes).
+    Removing afhds3 pwm frequencies packing library.o(.ARM.exidx.text.SES_PackPWMFrequencies), (8 bytes).
+    Removing afhds3 pwm frequencies packing library.o(.ARM.exidx.text.SES_UnpackPWMFrequencies), (8 bytes).
+    Removing afhds3 rc channels packing library.o(.text), (0 bytes).
+    Removing afhds3 rc channels packing library.o(.ARM.exidx.text.SES_PackChannels), (8 bytes).
+    Removing afhds3 rc channels packing library.o(.ARM.exidx.text.SES_PackOneChannel), (8 bytes).
+    Removing afhds3 rc channels packing library.o(.ARM.exidx.text.SES_UnpackChannels), (8 bytes).
+    Removing afhds3 queue low priority irq library.o(.text), (0 bytes).
+    Removing afhds3 queue low priority irq library.o(.ARM.exidx.text.SYS_LowPriorityIRQCallback), (8 bytes).
+    Removing afhds3 queue low priority irq library.o(.ARM.exidx.text.SYS_QueueLowPriorityIRQCallback), (8 bytes).
+    Removing afhds3 queue low priority irq library.o(.ARM.exidx.text.SYS_QueueLowPriorityIRQCallbackLast), (8 bytes).
+    Removing afhds3 queue medium priority irq library.o(.text), (0 bytes).
+    Removing afhds3 queue medium priority irq library.o(.ARM.exidx.text.SYS_MediumPriorityIRQCallback), (8 bytes).
+    Removing afhds3 queue medium priority irq library.o(.ARM.exidx.text.SYS_QueueMediumPriorityIRQCallback), (8 bytes).
+    Removing afhds3 queue medium priority irq library.o(.ARM.exidx.text.SYS_QueueMediumPriorityIRQCallbackLast), (8 bytes).
+    Removing phy sx1280.o(.text), (0 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_SX1280_DIO1IRQHandler), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_SX1280_DIO1IRQHandlerCallback1), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_TimerCompareIRQHandler), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_Stop), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_GetInstantRSSI), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_GetLastRXConditions), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_Init), (8 bytes).
+    Removing phy sx1280.o(.text.PHY_IsChannelUsable), (72 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_IsChannelUsable), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_ResumeRX), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_ResumeRXCallback), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_RX), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_SX1280_ContinueResetAndInit), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_RXCallback1), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_SetConfig), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_SetConfigCalcTXRXTime), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_TX), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_TXCallback1), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_SX1280_DIO1IRQHandlerCallback2), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_SX1280_DIO1IRQHandlerCallback3), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_SX1280_DIO1IRQHandlerCallback4), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_SX1280_ContinueResetAndInitCallback1), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_SX1280_ContinueResetAndInitCallback2), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_SX1280_ContinueResetAndInitCallback3), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_RXCallback2), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_RXCallback3), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_RXCallback4), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_TXCallback2), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_TXCallback3), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_TXCallback4), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_TXCallback5), (8 bytes).
+    Removing phy sx1280.o(.ARM.exidx.text.PHY_TXCallback6), (8 bytes).
+    Removing lnk afhds3 receiver.o(.text), (0 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_Bind), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_Stop), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_Factory), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_GetLastRXConditions), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_GetRFPower), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_Idle), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_Init), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNKTIM_TimerCompareIRQHandler), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_Run), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_SetAntenna), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_SetRFPower), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_Test), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_CallBlackBoxTXCallback), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_CallSuccessfullyBound), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_PacketReceivedCallbackBind), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_SynchronizationLostCallback), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_HeartbeatCallback), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_PacketReceivedCallbackRun), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_CallHeartbeatCallback), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_CallBuildTXPacketCallback), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_BuildTXPacketCallback), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_PacketReceivedCallbackFactory), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_FactoryMeasureRSSICallback), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_CallBlackBoxRXCallback), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_ProcessRXPacketBindCallback), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_SaveBoundConfig), (8 bytes).
+    Removing lnk afhds3 receiver.o(.ARM.exidx.text.LNK_ProcessRXPacketRunCallback), (8 bytes).
+    Removing ses afhds3.o(.text), (0 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_MsIRQHandler), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_Bind), (8 bytes).
+    Removing ses afhds3.o(.text.SES_Stop), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_Stop), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.TRA_BindCallback), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_Factory), (8 bytes).
+    Removing ses afhds3.o(.text.SES_GetFreeWSTXBufferLength), (32 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_GetFreeWSTXBufferLength), (8 bytes).
+    Removing ses afhds3.o(.text.SES_GetLastRXConditions), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_GetLastRXConditions), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_GetRFCycleTime), (8 bytes).
+    Removing ses afhds3.o(.text.SES_GetUsedWSTXBufferLength), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_GetUsedWSTXBufferLength), (8 bytes).
+    Removing ses afhds3.o(.text.SES_GetVersion), (6 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_GetVersion), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_Idle), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_Init), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_IsWSIdle), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_Run), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_Run2), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_SendCommand), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_SendCommandCallback), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_SendResponse), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_SendWSData), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_Test), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.TRA_RealtimePacketReceivedCallback), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.TRA_WSDataReceivedCallback), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.TRA_BuildRealtimePacketCallback), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.TRA_HeartbeatCallback), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_SetChannels), (8 bytes).
+    Removing ses afhds3.o(.ARM.exidx.text.SES_ProcessCommand), (8 bytes).
+    Removing i-bus 1 device library.o(.text), (0 bytes).
+    Removing i-bus 1 device library.o(.ARM.exidx.text.IB1DTIM_TimerIRQHandler), (8 bytes).
+    Removing i-bus 1 device library.o(.ARM.exidx.text.IB1D_MsIRQHandler), (8 bytes).
+    Removing i-bus 1 device library.o(.ARM.exidx.text.IB1D_Init), (8 bytes).
+    Removing i-bus 1 device library.o(.ARM.exidx.text.IB1D_CommandReceivedCallback), (8 bytes).
+    Removing i-bus 2 device library.o(.text), (0 bytes).
+    Removing i-bus 2 device library.o(.ARM.exidx.text.IB2D_MsIRQHandler), (8 bytes).
+    Removing i-bus 2 device library.o(.ARM.exidx.text.IB2DTIM_TimerIRQHandler), (8 bytes).
+    Removing i-bus 2 device library.o(.ARM.exidx.text.IB2D_RestartChannelsReceptionCallback), (8 bytes).
+    Removing i-bus 2 device library.o(.text.IB2D_Deinit), (52 bytes).
+    Removing i-bus 2 device library.o(.ARM.exidx.text.IB2D_Deinit), (8 bytes).
+    Removing i-bus 2 device library.o(.ARM.exidx.text.IB2D_Init), (8 bytes).
+    Removing i-bus 2 device library.o(.ARM.exidx.text.IB2D_ReceiveChannelsCallback), (8 bytes).
+    Removing i-bus 2 device library.o(.ARM.exidx.text.IB2D_ReceiveChannelsCallbackMedium), (8 bytes).
+    Removing i-bus 2 device library.o(.ARM.exidx.text.IB2D_ProcessChannelsCallback), (8 bytes).
+    Removing i-bus 2 device library.o(.ARM.exidx.text.IB2D_ReceiveCommandCallback), (8 bytes).
+    Removing i-bus 2 device library.o(.ARM.exidx.text.IB2D_ReceiveCommandCallbackMedium), (8 bytes).
+    Removing new port.o(.text), (0 bytes).
+    Removing new port.o(.ARM.exidx.text.NPT_MsIRQHandler), (8 bytes).
+    Removing new port.o(.ARM.exidx.text.NPT_BuildRealtimePacketCallback), (8 bytes).
+    Removing new port.o(.ARM.exidx.text.NPT_FailsafeChanged), (8 bytes).
+    Removing new port.o(.ARM.exidx.text.NPT_Init), (8 bytes).
+    Removing new port.o(.ARM.exidx.text.NPT_WSDataReceivedCallback), (8 bytes).
+    Removing new port.o(.ARM.exidx.text.NPT_SetChannels), (8 bytes).
+    Removing new port.o(.ARM.exidx.text.NPT_SetPWMFrequencies), (8 bytes).
+    Removing new port.o(.ARM.exidx.text.NPT_SetWSUSARTConfig), (8 bytes).
+    Removing new port.o(.ARM.exidx.text.NPT_StartDeinit), (8 bytes).
+    Removing npt i-bus 1.o(.text), (0 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_GetNextSensor), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_GetParam), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_Init), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_SetChannels), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_TimerCompareIRQHandler), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_SetParam), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_SetupServo), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_StartDeinit), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_TimerCompareCallback), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_ProcessLastResponse), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_BuildNextCommand), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_ReceiveServoIRQHandler), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_ReceiveSensorIRQHandler), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_ReceiveServoCallback), (8 bytes).
+    Removing npt i-bus 1.o(.ARM.exidx.text.IB1_ReceiveSensorCallback), (8 bytes).
+    Removing npt i-bus 2.o(.text), (0 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_FailsafeChanged), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_GetParam), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_GetNextSensor), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_Init), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_TimerCompareIRQHandler), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_HubInit), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_SetChannels), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_SetParam), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_StartDeinit), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_ProcessLastResponseCallback), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_ReassignValueBuffer), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_CallGetParamResponseCallback), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_CallSetParamResponseCallback), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_SendChannelsIRQHandler), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_SendChannelsCallback), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_SendCommandIRQHandler), (8 bytes).
+    Removing npt i-bus 2.o(.ARM.exidx.text.IB2_SendCommandCallback), (8 bytes).
+    Removing afhds3 simple random number library.o(.text), (0 bytes).
+    Removing afhds3 simple random number library.o(.ARM.exidx.text.SYS_GetSimpleRandomNumber), (8 bytes).
+    Removing afhds3 simple random number library.o(.text.SYS_GetSimpleRandomNumberFromSeed), (20 bytes).
+    Removing afhds3 simple random number library.o(.ARM.exidx.text.SYS_GetSimpleRandomNumberFromSeed), (8 bytes).
+    Removing tra afhds3.o(.text), (0 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_Bind), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_Stop), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.LNK_BindCallback), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_Factory), (8 bytes).
+    Removing tra afhds3.o(.text.TRA_GetFreeWSTXBufferLength), (64 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_GetFreeWSTXBufferLength), (8 bytes).
+    Removing tra afhds3.o(.text.TRA_GetLastRXConditions), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_GetLastRXConditions), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_GetRFCycleTime), (8 bytes).
+    Removing tra afhds3.o(.text.TRA_GetUsedWSTXBufferLength), (60 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_GetUsedWSTXBufferLength), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_Idle), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_Init), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_IsWSIdle), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_Run), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_Run2), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_SendWSData), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_SendWSDataCallback), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_SetAntenna), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.TRA_Test), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.LNK_PacketReceivedCallback), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.LNK_BuildTXPacketCallback), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.LNK_HeartbeatCallback), (8 bytes).
+    Removing tra afhds3.o(.ARM.exidx.text.LNK_PacketReceivedCallbackStoreWSStatus), (8 bytes).
+    Removing npt i-bus common.o(.text), (0 bytes).
+    Removing npt i-bus common.o(.ARM.exidx.text.IB_BuildRealtimePacketCallback), (8 bytes).
+    Removing npt i-bus common.o(.ARM.exidx.text.IB_ResetSensors), (8 bytes).
+    Removing npt s-bus.o(.text), (0 bytes).
+    Removing npt s-bus.o(.text.SB_BuildRealtimePacketCallback), (4 bytes).
+    Removing npt s-bus.o(.ARM.exidx.text.SB_BuildRealtimePacketCallback), (8 bytes).
+    Removing npt s-bus.o(.ARM.exidx.text.SB_Init), (8 bytes).
+    Removing npt s-bus.o(.ARM.exidx.text.SB_SetChannels), (8 bytes).
+    Removing npt s-bus.o(.ARM.exidx.text.SB_TimerCompareIRQHandler), (8 bytes).
+    Removing npt s-bus.o(.ARM.exidx.text.SB_StartDeinit), (8 bytes).
+    Removing npt s-bus.o(.ARM.exidx.text.SB_TimerCompareCallback), (8 bytes).
+    Removing npt ws.o(.text), (0 bytes).
+    Removing npt ws.o(.ARM.exidx.text.WS_MsIRQHandler), (8 bytes).
+    Removing npt ws.o(.ARM.exidx.text.WS_DataReceivedCallback), (8 bytes).
+    Removing npt ws.o(.ARM.exidx.text.WS_Deinit), (8 bytes).
+    Removing npt ws.o(.ARM.exidx.text.WS_Init), (8 bytes).
+    Removing npt ws.o(.ARM.exidx.text.WS_SendData), (8 bytes).
+    Removing npt ws.o(.ARM.exidx.text.WS_TransmitCallback), (8 bytes).
+    Removing npt ws.o(.ARM.exidx.text.WS_SetUSARTConfig), (8 bytes).
+    Removing npt ws.o(.ARM.exidx.text.WS_TransmitIRQHandler), (8 bytes).
+    Removing npt ppm.o(.text), (0 bytes).
+    Removing npt ppm.o(.ARM.exidx.text.PPM_Init), (8 bytes).
+    Removing npt ppm.o(.ARM.exidx.text.PPM_TimerCompareIRQHandler), (8 bytes).
+    Removing npt ppm.o(.ARM.exidx.text.PPM_SetChannels), (8 bytes).
+    Removing npt ppm.o(.ARM.exidx.text.PPM_StartDeinit), (8 bytes).
+    Removing npt ppm.o(.ARM.exidx.text.PPM_TimerCompareCallback), (8 bytes).
+    Removing npt pwm.o(.text), (0 bytes).
+    Removing npt pwm.o(.ARM.exidx.text.PWM_Init), (8 bytes).
+    Removing npt pwm.o(.ARM.exidx.text.PWM_SetFrequenciesInternal), (8 bytes).
+    Removing npt pwm.o(.ARM.exidx.text.PWM_TimerCompareIRQHandler), (8 bytes).
+    Removing npt pwm.o(.ARM.exidx.text.PWM_SetChannels), (8 bytes).
+    Removing npt pwm.o(.ARM.exidx.text.PWM_SetFrequencies), (8 bytes).
+    Removing npt pwm.o(.ARM.exidx.text.PWM_StartDeinit), (8 bytes).
+    Removing npt pwm.o(.ARM.exidx.text.PWM_TimerCompareCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.text), (0 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.ADC_GetInternalVoltage), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.ADC_GetExternalVoltage), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.DMA1_Ch4_7_DMAMUX1_OVR_IRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SPI_Transfer), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SPI_TransferWait), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.I2C_Transfer), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.TIM17_IRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.LNKTIM_GetCounter), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.LNKTIM_Init), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.LNKTIM_SetNextCompareIRQTime), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.LNKTIM_SetNextCompareIRQTimeFromMarker), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.LNKTIM_SetTimeMarker), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.LNKTIM_StartTimer), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.LNKTIM_StopTimer), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.EXTI4_15_IRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1_GetParamResponse), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1_SetParamResponse), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1_SetupServoResponse), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2_GetParamResponse), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2_SetParamResponse), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.NPT_GetInternalSensor), (8 bytes).
+    Removing lto-llvm-450fdf.o(.text.PHY_SetAntenna), (2 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.PHY_SetAntenna), (8 bytes).
+    Removing lto-llvm-450fdf.o(.text.PHY_SetAttenuator), (2 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.PHY_SetAttenuator), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.PHY_SetPAMode), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.PHY_SX1280_IsBusy), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.PHY_SX1280_SetResetPin), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.main), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.APP_LoadConfig), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SES_RealtimePacketReceivedCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SES_WSDataReceivedCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SES_CommandReceivedCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SES_PreSetChannelsCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SES_SetChannelsCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SES_BuildRealtimePacketCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SES_HeartbeatCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SES_BindCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.LNK_FactorySaveConfigCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.TIM1_CC_IRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.NPTTIM_SetNextCompareIRQTimeInternal), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.TIM15_IRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.NPTTIM_DisableChannel), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.NPTTIM_EnableChannel), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.NPTTIM_FreezeCompareIRQ), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.NPTTIM_GetCounter), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.NPTTIM_SetNextCompareIRQCounter), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.NPTTIM_SetNextCompareIRQTime), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.NPTTIM_SetNextCompareIRQTimeFromNow), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.NPTTIM_TriggerIRQ), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.PWMA_IBus1TimerIRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.PWMA_IBus2TimerIRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.text.IB1D_GetParamCallback), (4 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1D_GetParamCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1D_GetValueCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1D_ServoOutCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.text.IB1D_SetBufferState), (2 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1D_SetBufferState), (8 bytes).
+    Removing lto-llvm-450fdf.o(.text.IB1D_SetParamCallback), (4 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1D_SetParamCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1D_StatusChangedCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1DTIM_SetNextIRQTime), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1DTIM_StartTimer), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1DTIM_StopTimer), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1DUSART_ReceiveSetup), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1DUSART_ReceiveStart), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1DUSART_TransmitSetup), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB1DUSART_TransmitStart), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.PWMA_Activate), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.PWMA_CallPWMSetFrequency), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2D_GetParamCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2D_SetParamCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2D_GetValueCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2D_RequiredResourcesCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2D_SetChannelsCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2D_SetChannelsTypeCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2D_SetFailsafeCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DTIM_Deinit), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DTIM_Init), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2D_StatusChangedCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DTIM_SetNextIRQTime), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DTIM_StartTimer), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DTIM_StopTimer), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DUSART_Deinit), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DUSART_Init), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DUSART_ReceiveSetup), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DUSART_ReceiveStart), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DUSART_ReceiveStop), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DUSART_TransmitSetup), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.IB2DUSART_TransmitStart), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.TIM6_IRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.WWDG_IRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.RTC_TAMP_IRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SystemInit), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SYS_CalcChecksum16), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SYS_DelayUs), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SYS_DisableIRQs), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SYS_EnableIRQs), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SYS_ResetToBootloader), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SYS_TriggerLowPriorityCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.SYS_TriggerMediumPriorityCallback), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.USART1_IRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.USART2_IRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.USART3_4_IRQHandler), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.USART_NPT_Deinit), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.USART_NPT_GetNbReceivedBytes), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.USART_NPT_Init), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.USART_NPT_ReceiveSetup), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.USART_NPT_ReceiveStart), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.USART_NPT_ReceiveStop), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.USART_NPT_TransmitSetup), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.exidx.text.USART_NPT_TransmitStart), (8 bytes).
+    Removing lto-llvm-450fdf.o(.ARM.use_no_argv), (4 bytes).
+
+351 unused section(s) (total 2972 bytes) removed from the image.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x080060b9
+
+  Load Region LR_IROM1 (Base: 0x08006000, Size: 0x000002e0, Max: 0x00000f80, ABSOLUTE, COMPRESSED[0x00000220])
+
+    Execution Region ER_IROM1 (Exec base: 0x08006000, Load base: 0x08006000, Size: 0x00000138, Max: 0x00000f80, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08006000   0x08006000   0x000000b8   Data   RO            3    RESET               startup_stm32g070xx.o
+    0x080060b8   0x080060b8   0x00000008   Code   RO          513  * !!!main             c_p.l(__main.o)
+    0x080060c0   0x080060c0   0x0000003c   Code   RO          958    !!!scatter          c_p.l(__scatter.o)
+    0x080060fc   0x080060fc   0x0000001c   Code   RO          959    !!handler_zi        c_p.l(__scatter_zi.o)
+    0x08006118   0x08006118   0x00000020   Data   RO          956    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Exec base: 0x20000080, Load base: 0x08006138, Size: 0x00001c48, Max: 0x00008f80, ABSOLUTE, COMPRESSED[0x000000e8])
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000080   COMPRESSED   0x00000044   Data   RW          907    .data.APP_NPT_InitStructPWM  lto-llvm-450fdf.o
+    0x200000c4   COMPRESSED   0x00000044   Data   RW          906    .data.APP_NPT_InitStructRF  lto-llvm-450fdf.o
+    0x20000108   COMPRESSED   0x00000003   Data   RW          135    .data.PHY_SX1280_Cmd_SetTXParams  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x2000010b   COMPRESSED   0x00000001   PAD
+    0x2000010c   COMPRESSED   0x0000000c   Data   RW          924    .data.SES_FactoryApp  lto-llvm-450fdf.o
+    0x20000118   COMPRESSED   0x00000020   Data   RW          903    .data.SES_InitStruct  lto-llvm-450fdf.o
+    0x20000138   COMPRESSED   0x00000034   Data   RW          909    .data.SES_RunStruct  lto-llvm-450fdf.o
+    0x2000016c   COMPRESSED   0x00000014   Data   RW          252    .data.SES_TransportRunUp  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x20000180   COMPRESSED   0x00000004   Data   RW          383    .data.SYS_RandomNumberSeed  AFHDS3 simple random number library M0+ release.lib(afhds3 simple random number library.o)
+    0x20000184   COMPRESSED   0x00000010   Data   RW          428    .data.TRA_LinkRunUp  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x20000194   COMPRESSED   0x00000010   Data   RW          915    .data.TRA_RunApp    lto-llvm-450fdf.o
+    0x200001a4   COMPRESSED   0x00000080   Data   RW          950    .data.USART_NPT_PortsVars  lto-llvm-450fdf.o
+    0x20000224   COMPRESSED   0x00000004   PAD
+    0x20000228        -       0x00000060   Zero   RW          545    .bss                c_p.l(libspace.o)
+    0x20000288        -       0x00000064   Zero   RW           49    .bss..L_MergedGlobals  AFHDS3 queue low priority IRQ library 8Q4Q M0+ release.lib(afhds3 queue low priority irq library.o)
+    0x200002ec        -       0x00000044   Zero   RW           58    .bss..L_MergedGlobals  AFHDS3 queue medium priority IRQ library 8Q32Q M0+ release.lib(afhds3 queue medium priority irq library.o)
+    0x20000330        -       0x00000060   Zero   RW          136    .bss..L_MergedGlobals  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x20000390        -       0x00000008   Zero   RW          197    .bss..L_MergedGlobals  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x20000398        -       0x00000008   Zero   RW          253    .bss..L_MergedGlobals  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x200003a0        -       0x00000050   Zero   RW          263    .bss..L_MergedGlobals  i-Bus 1 device library M0+ release.lib(i-bus 1 device library.o)
+    0x200003f0        -       0x0000004a   Zero   RW          286    .bss..L_MergedGlobals  i-Bus 2 device library M0+ release.lib(i-bus 2 device library.o)
+    0x2000043a   COMPRESSED   0x00000002   PAD
+    0x2000043c        -       0x00000054   Zero   RW          306    .bss..L_MergedGlobals  New Port 4 channels 4 ports M0+ release.lib(new port.o)
+    0x20000490        -       0x00000002   Zero   RW          339    .bss..L_MergedGlobals  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x20000492        -       0x00000002   Zero   RW          376    .bss..L_MergedGlobals  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x20000494        -       0x00000008   Zero   RW          429    .bss..L_MergedGlobals  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x2000049c        -       0x00000002   Zero   RW          436    .bss..L_MergedGlobals  New Port 4 channels 4 ports M0+ release.lib(npt i-bus common.o)
+    0x2000049e        -       0x0000001e   Zero   RW          451    .bss..L_MergedGlobals  New Port 4 channels 4 ports M0+ release.lib(npt s-bus.o)
+    0x200004bc        -       0x00000014   Zero   RW          469    .bss..L_MergedGlobals  New Port 4 channels 4 ports M0+ release.lib(npt ws.o)
+    0x200004d0        -       0x00000030   Zero   RW          481    .bss..L_MergedGlobals  New Port 4 channels 4 ports M0+ release.lib(npt ppm.o)
+    0x20000500        -       0x00000030   Zero   RW          498    .bss..L_MergedGlobals  New Port 4 channels 4 ports M0+ release.lib(npt pwm.o)
+    0x20000530        -       0x00000062   Zero   RW          137    .bss..L_MergedGlobals.1  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x20000592   COMPRESSED   0x00000002   PAD
+    0x20000594        -       0x00000004   Zero   RW          865    .bss.ADC_ChannelsSumValue.0  lto-llvm-450fdf.o
+    0x20000598        -       0x00000004   Zero   RW          866    .bss.ADC_ChannelsValue.0  lto-llvm-450fdf.o
+    0x2000059c        -       0x00000001   Zero   RW          863    .bss.ADC_Initialized  lto-llvm-450fdf.o
+    0x2000059d        -       0x00000001   Zero   RW          864    .bss.ADC_SampleNb   lto-llvm-450fdf.o
+    0x2000059e        -       0x00000001   Zero   RW          902    .bss.APP_ActivateReceiverRole  lto-llvm-450fdf.o
+    0x2000059f        -       0x00000001   Zero   RW          904    .bss.APP_BindCommandNb  lto-llvm-450fdf.o
+    0x200005a0        -       0x00000001   Zero   RW          896    .bss.APP_Binding    lto-llvm-450fdf.o
+    0x200005a1   COMPRESSED   0x00000003   PAD
+    0x200005a4        -       0x00000040   Zero   RW          888    .bss.APP_Channels1  lto-llvm-450fdf.o
+    0x200005e4        -       0x00000040   Zero   RW          889    .bss.APP_Channels2  lto-llvm-450fdf.o
+    0x20000624        -       0x00000020   Zero   RW          891    .bss.APP_ChannelsPacked1  lto-llvm-450fdf.o
+    0x20000644        -       0x00000020   Zero   RW          914    .bss.APP_ChannelsPacked2  lto-llvm-450fdf.o
+    0x20000664        -       0x00000001   Zero   RW          897    .bss.APP_ChannelsReceived  lto-llvm-450fdf.o
+    0x20000665   COMPRESSED   0x00000003   PAD
+    0x20000668        -       0x00000108   Zero   RW          885    .bss.APP_Config     lto-llvm-450fdf.o
+    0x20000770        -       0x00000001   Zero   RW          887    .bss.APP_ConfigChanged  lto-llvm-450fdf.o
+    0x20000771   COMPRESSED   0x00000003   PAD
+    0x20000774        -       0x00000004   Zero   RW          912    .bss.APP_NewPortTypes  lto-llvm-450fdf.o
+    0x20000778        -       0x00000044   Zero   RW          886    .bss.APP_PWMFrequenciesV1  lto-llvm-450fdf.o
+    0x200007bc        -       0x00000050   Zero   RW          919    .bss.APP_SESCommand  lto-llvm-450fdf.o
+    0x2000080c        -       0x00000001   Zero   RW          908    .bss.APP_SecondChannelsSetActive  lto-llvm-450fdf.o
+    0x2000080d   COMPRESSED   0x00000003   PAD
+    0x20000810        -       0x00000004   Zero   RW          898    .bss.APP_SetChannelsCallbackTimeMs  lto-llvm-450fdf.o
+    0x20000814        -       0x00000004   Zero   RW          910    .bss.APP_SetChannelsMaxTime  lto-llvm-450fdf.o
+    0x20000818        -       0x00000001   Zero   RW          890    .bss.APP_SignalStatus  lto-llvm-450fdf.o
+    0x20000819        -       0x00000001   Zero   RW          911    .bss.APP_SwitchNewPortInProgress  lto-llvm-450fdf.o
+    0x2000081a   COMPRESSED   0x00000002   PAD
+    0x2000081c        -       0x00000004   Zero   RW          900    .bss.APP_TestMs     lto-llvm-450fdf.o
+    0x20000820        -       0x00000001   Zero   RW          899    .bss.APP_UpdateFirmware  lto-llvm-450fdf.o
+    0x20000821   COMPRESSED   0x00000001   PAD
+    0x20000822        -       0x00000040   Zero   RW          892    .bss.APP_UsedFailsafe  lto-llvm-450fdf.o
+    0x20000862        -       0x00000020   Zero   RW          893    .bss.APP_UsedFailsafePacked  lto-llvm-450fdf.o
+    0x20000882   COMPRESSED   0x00000002   PAD
+    0x20000884        -       0x000005dc   Zero   RW          435    .bss.IB_ModeVars    New Port 4 channels 4 ports M0+ release.lib(npt i-bus common.o)
+    0x20000e60        -       0x00000001   Zero   RW          881    .bss.LED_Initialized  lto-llvm-450fdf.o
+    0x20000e61   COMPRESSED   0x00000003   PAD
+    0x20000e64        -       0x00000004   Zero   RW          882    .bss.LED_MsCounter  lto-llvm-450fdf.o
+    0x20000e68        -       0x00000008   Zero   RW          883    .bss.LED_Pattern    lto-llvm-450fdf.o
+    0x20000e70        -       0x00000004   Zero   RW          884    .bss.LED_PatternBitNb  lto-llvm-450fdf.o
+    0x20000e74        -       0x00000004   Zero   RW          869    .bss.LNKTIM_RemainingTime  lto-llvm-450fdf.o
+    0x20000e78        -       0x00000004   Zero   RW          871    .bss.LNKTIM_TimerCounter  lto-llvm-450fdf.o
+    0x20000e7c        -       0x00000004   Zero   RW          872    .bss.LNKTIM_TimerCounterMarker  lto-llvm-450fdf.o
+    0x20000e80        -       0x0000006a   Zero   RW          923    .bss.LNK_BoundConfig1Way  lto-llvm-450fdf.o
+    0x20000eea   COMPRESSED   0x00000002   PAD
+    0x20000eec        -       0x00000010   Zero   RW          894    .bss.LNK_FactoryConfig  lto-llvm-450fdf.o
+    0x20000efc        -       0x00000001   Zero   RW          901    .bss.LNK_FactoryConfigChanged  lto-llvm-450fdf.o
+    0x20000efd   COMPRESSED   0x00000003   PAD
+    0x20000f00        -       0x00000200   Zero   RW          193    .bss.LNK_ModeVars   AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x20001100        -       0x00000002   Zero   RW          925    .bss.NPTTIM_AreIRQPrioritiesHigh  lto-llvm-450fdf.o
+    0x20001102        -       0x00000001   Zero   RW          931    .bss.NPTTIM_Initialized  lto-llvm-450fdf.o
+    0x20001103        -       0x00000004   Zero   RW          929    .bss.NPTTIM_NextCompareIRQsOutputLevel  lto-llvm-450fdf.o
+    0x20001107   COMPRESSED   0x00000001   PAD
+    0x20001108        -       0x00000010   Zero   RW          926    .bss.NPTTIM_RemainingTimes  lto-llvm-450fdf.o
+    0x20001118        -       0x00000010   Zero   RW          928    .bss.NPTTIM_TimerCounters  lto-llvm-450fdf.o
+    0x20001128        -       0x00000100   Zero   RW          922    .bss.NPT_WSRXBuffer  lto-llvm-450fdf.o
+    0x20001228        -       0x00000100   Zero   RW          921    .bss.NPT_WSTXBuffer  lto-llvm-450fdf.o
+    0x20001328        -       0x00000038   Zero   RW          131    .bss.PHY_SX1280_DIO1IRQHandlerRXPacket  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x20001360        -       0x00000014   Zero   RW          938    .bss.PWMA_ChannelsType  lto-llvm-450fdf.o
+    0x20001374        -       0x00000001   Zero   RW          936    .bss.PWMA_RequiredResources.0  lto-llvm-450fdf.o
+    0x20001375   COMPRESSED   0x00000003   PAD
+    0x20001378        -       0x000000b4   Zero   RW          251    .bss.SES_ModeVars   AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x2000142c        -       0x0000001c   Zero   RW          913    .bss.SES_TestStruct  lto-llvm-450fdf.o
+    0x20001448        -       0x00000001   Zero   RW          867    .bss.SPI_IsTXAndRXDMA  lto-llvm-450fdf.o
+    0x20001449        -       0x00000001   Zero   RW          941    .bss.SYS_DisableIRQsCounter  lto-llvm-450fdf.o
+    0x2000144a        -       0x00000001   Zero   RW          940    .bss.SYS_InLowPriorityCallback  lto-llvm-450fdf.o
+    0x2000144b   COMPRESSED   0x00000001   PAD
+    0x2000144c        -       0x00000100   Zero   RW           57    .bss.SYS_MediumPriorityIRQLastStruct  AFHDS3 queue medium priority IRQ library 8Q32Q M0+ release.lib(afhds3 queue medium priority irq library.o)
+    0x2000154c        -       0x00000004   Zero   RW          939    .bss.SYS_SysTickMs  lto-llvm-450fdf.o
+    0x20001550        -       0x0000024c   Zero   RW          427    .bss.TRA_ModeVars   AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x2000179c        -       0x00000100   Zero   RW          916    .bss.TRA_WSTXBuffer  lto-llvm-450fdf.o
+    0x2000189c        -       0x00000004   Zero   RW          953    .bss.USART_NPT_IDLEInterruptsEnabled  lto-llvm-450fdf.o
+    0x200018a0        -       0x00000004   Zero   RW          952    .bss.USART_NPT_Initialized  lto-llvm-450fdf.o
+    0x200018a4        -       0x00000001   Zero   RW          954    .bss.USART_NPT_IsUSART3_4IRQPriorityHigh  lto-llvm-450fdf.o
+    0x200018a5        -       0x00000004   Zero   RW          951    .bss.USART_NPT_Transmitting  lto-llvm-450fdf.o
+    0x200018a9   COMPRESSED   0x00000003   PAD
+    0x200018ac        -       0x00000004   Zero   RW          870    .bss.pLNKTIM_TimerCompareIRQHandler  lto-llvm-450fdf.o
+    0x200018b0        -       0x00000010   Zero   RW          927    .bss.pNPTTIM_TimerCompareIRQHandlers  lto-llvm-450fdf.o
+    0x200018c0        -       0x00000004   Zero   RW          868    .bss.pSPI_BusyIRQCallback  lto-llvm-450fdf.o
+    0x200018c4   COMPRESSED   0x00000004   PAD
+    0x200018c8        -       0x00000000   Zero   RW            2    HEAP                startup_stm32g070xx.o
+    0x200018c8        -       0x00000400   Zero   RW            1    STACK               startup_stm32g070xx.o
+
+
+
+  Load Region LR_IROM2 (Base: 0x08007000, Size: 0x0000e030, Max: 0x00019000, ABSOLUTE)
+
+    Execution Region ER_IROM2 (Exec base: 0x08007000, Load base: 0x08007000, Size: 0x0000e030, Max: 0x00019000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08007000   0x08007000   0x00000002   Code   RO          543    .ARM.Collect$$libinit$$00000000  c_p.l(libinit.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          553    .ARM.Collect$$libinit$$00000002  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          555    .ARM.Collect$$libinit$$00000004  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          558    .ARM.Collect$$libinit$$0000000A  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          560    .ARM.Collect$$libinit$$0000000C  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          562    .ARM.Collect$$libinit$$0000000E  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          565    .ARM.Collect$$libinit$$00000011  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          567    .ARM.Collect$$libinit$$00000013  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          569    .ARM.Collect$$libinit$$00000015  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          571    .ARM.Collect$$libinit$$00000017  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          573    .ARM.Collect$$libinit$$00000019  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          575    .ARM.Collect$$libinit$$0000001B  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          577    .ARM.Collect$$libinit$$0000001D  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          579    .ARM.Collect$$libinit$$0000001F  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          581    .ARM.Collect$$libinit$$00000021  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          583    .ARM.Collect$$libinit$$00000023  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          585    .ARM.Collect$$libinit$$00000025  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          589    .ARM.Collect$$libinit$$0000002C  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          591    .ARM.Collect$$libinit$$0000002E  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          593    .ARM.Collect$$libinit$$00000030  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000000   Code   RO          595    .ARM.Collect$$libinit$$00000032  c_p.l(libinit2.o)
+    0x08007002   0x08007002   0x00000002   Code   RO          596    .ARM.Collect$$libinit$$00000033  c_p.l(libinit2.o)
+    0x08007004   0x08007004   0x00000002   Code   RO          618    .ARM.Collect$$libshutdown$$00000000  c_p.l(libshutdown.o)
+    0x08007006   0x08007006   0x00000000   Code   RO          633    .ARM.Collect$$libshutdown$$00000002  c_p.l(libshutdown2.o)
+    0x08007006   0x08007006   0x00000000   Code   RO          635    .ARM.Collect$$libshutdown$$00000004  c_p.l(libshutdown2.o)
+    0x08007006   0x08007006   0x00000000   Code   RO          638    .ARM.Collect$$libshutdown$$00000007  c_p.l(libshutdown2.o)
+    0x08007006   0x08007006   0x00000000   Code   RO          641    .ARM.Collect$$libshutdown$$0000000A  c_p.l(libshutdown2.o)
+    0x08007006   0x08007006   0x00000000   Code   RO          643    .ARM.Collect$$libshutdown$$0000000C  c_p.l(libshutdown2.o)
+    0x08007006   0x08007006   0x00000000   Code   RO          646    .ARM.Collect$$libshutdown$$0000000F  c_p.l(libshutdown2.o)
+    0x08007006   0x08007006   0x00000002   Code   RO          647    .ARM.Collect$$libshutdown$$00000010  c_p.l(libshutdown2.o)
+    0x08007008   0x08007008   0x00000000   Code   RO          514    .ARM.Collect$$rtentry$$00000000  c_p.l(__rtentry.o)
+    0x08007008   0x08007008   0x00000000   Code   RO          520    .ARM.Collect$$rtentry$$00000002  c_p.l(__rtentry2.o)
+    0x08007008   0x08007008   0x00000006   Code   RO          532    .ARM.Collect$$rtentry$$00000004  c_p.l(__rtentry4.o)
+    0x0800700e   0x0800700e   0x00000000   Code   RO          522    .ARM.Collect$$rtentry$$00000009  c_p.l(__rtentry2.o)
+    0x0800700e   0x0800700e   0x00000004   Code   RO          523    .ARM.Collect$$rtentry$$0000000A  c_p.l(__rtentry2.o)
+    0x08007012   0x08007012   0x00000000   Code   RO          525    .ARM.Collect$$rtentry$$0000000C  c_p.l(__rtentry2.o)
+    0x08007012   0x08007012   0x00000008   Code   RO          526    .ARM.Collect$$rtentry$$0000000D  c_p.l(__rtentry2.o)
+    0x0800701a   0x0800701a   0x00000002   Code   RO          547    .ARM.Collect$$rtexit$$00000000  c_p.l(rtexit.o)
+    0x0800701c   0x0800701c   0x00000000   Code   RO          600    .ARM.Collect$$rtexit$$00000002  c_p.l(rtexit2.o)
+    0x0800701c   0x0800701c   0x00000004   Code   RO          601    .ARM.Collect$$rtexit$$00000003  c_p.l(rtexit2.o)
+    0x08007020   0x08007020   0x00000006   Code   RO          602    .ARM.Collect$$rtexit$$00000004  c_p.l(rtexit2.o)
+    0x08007026   0x08007026   0x00000002   PAD
+    0x08007028   0x08007028   0x00000038   Code   RO          505    .emb_text           c_p.l(rt_memcpy.o)
+    0x08007060   0x08007060   0x00000034   Code   RO            4    .text               startup_stm32g070xx.o
+    0x08007094   0x08007094   0x00000022   Code   RO          501    .text               c_p.l(llushr.o)
+    0x080070b6   0x080070b6   0x00000030   Code   RO          502    .text               c_p.l(llmul.o)
+    0x080070e6   0x080070e6   0x00000110   Code   RO          503    .text               c_p.l(lludiv.o)
+    0x080071f6   0x080071f6   0x0000005a   Code   RO          504    .text               c_p.l(memcmp.o)
+    0x08007250   0x08007250   0x00000082   Code   RO          506    .text               c_p.l(rt_memcpy.o)
+    0x080072d2   0x080072d2   0x00000040   Code   RO          507    .text               c_p.l(rt_memclr.o)
+    0x08007312   0x08007312   0x00000006   Code   RO          512    .text               c_p.l(heapauxi.o)
+    0x08007318   0x08007318   0x0000003e   Code   RO          535    .text               c_p.l(sys_stackheap_outer.o)
+    0x08007356   0x08007356   0x00000010   Code   RO          537    .text               c_p.l(exit.o)
+    0x08007366   0x08007366   0x00000002   PAD
+    0x08007368   0x08007368   0x00000008   Code   RO          544    .text               c_p.l(libspace.o)
+    0x08007370   0x08007370   0x0000000c   Code   RO          597    .text               c_p.l(sys_exit.o)
+    0x0800737c   0x0800737c   0x00000002   Code   RO          612    .text               c_p.l(use_no_semi.o)
+    0x0800737e   0x0800737e   0x00000000   Code   RO          613    .text               c_p.l(indicate_semi.o)
+    0x0800737e   0x0800737e   0x00000056   Code   RO          957    .text               c_p.l(__dczerorl2.o)
+    0x080073d4   0x080073d4   0x00000008   Code   RO          651    .text.ADC_GetExternalVoltage  lto-llvm-450fdf.o
+    0x080073dc   0x080073dc   0x00000038   Code   RO          649    .text.ADC_GetInternalVoltage  lto-llvm-450fdf.o
+    0x08007414   0x08007414   0x000000c8   Code   RO          703    .text.APP_LoadConfig  lto-llvm-450fdf.o
+    0x080074dc   0x080074dc   0x0000008c   Code   RO          653    .text.DMA1_Ch4_7_DMAMUX1_OVR_IRQHandler  lto-llvm-450fdf.o
+    0x08007568   0x08007568   0x00000038   Code   RO          677    .text.EXTI4_15_IRQHandler  lto-llvm-450fdf.o
+    0x080075a0   0x080075a0   0x00000110   Code   RO          659    .text.I2C_Transfer  lto-llvm-450fdf.o
+    0x080076b0   0x080076b0   0x00000090   Code   RO          761    .text.IB1DTIM_SetNextIRQTime  lto-llvm-450fdf.o
+    0x08007740   0x08007740   0x000000e8   Code   RO          763    .text.IB1DTIM_StartTimer  lto-llvm-450fdf.o
+    0x08007828   0x08007828   0x00000038   Code   RO          765    .text.IB1DTIM_StopTimer  lto-llvm-450fdf.o
+    0x08007860   0x08007860   0x000000b4   Code   RO          255    .text.IB1DTIM_TimerIRQHandler  i-Bus 1 device library M0+ release.lib(i-bus 1 device library.o)
+    0x08007914   0x08007914   0x00000078   Code   RO          767    .text.IB1DUSART_ReceiveSetup  lto-llvm-450fdf.o
+    0x0800798c   0x0800798c   0x00000038   Code   RO          769    .text.IB1DUSART_ReceiveStart  lto-llvm-450fdf.o
+    0x080079c4   0x080079c4   0x00000084   Code   RO          771    .text.IB1DUSART_TransmitSetup  lto-llvm-450fdf.o
+    0x08007a48   0x08007a48   0x0000001c   Code   RO          773    .text.IB1DUSART_TransmitStart  lto-llvm-450fdf.o
+    0x08007a64   0x08007a64   0x00000420   Code   RO          261    .text.IB1D_CommandReceivedCallback  i-Bus 1 device library M0+ release.lib(i-bus 1 device library.o)
+    0x08007e84   0x08007e84   0x00000070   Code   RO          751    .text.IB1D_GetValueCallback  lto-llvm-450fdf.o
+    0x08007ef4   0x08007ef4   0x00000050   Code   RO          259    .text.IB1D_Init     i-Bus 1 device library M0+ release.lib(i-bus 1 device library.o)
+    0x08007f44   0x08007f44   0x00000080   Code   RO          257    .text.IB1D_MsIRQHandler  i-Bus 1 device library M0+ release.lib(i-bus 1 device library.o)
+    0x08007fc4   0x08007fc4   0x00000120   Code   RO          753    .text.IB1D_ServoOutCallback  lto-llvm-450fdf.o
+    0x080080e4   0x080080e4   0x00000064   Code   RO          759    .text.IB1D_StatusChangedCallback  lto-llvm-450fdf.o
+    0x08008148   0x08008148   0x00000204   Code   RO          328    .text.IB1_BuildNextCommand  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x0800834c   0x0800834c   0x000000ec   Code   RO          308    .text.IB1_GetNextSensor  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x08008438   0x08008438   0x00000048   Code   RO          310    .text.IB1_GetParam  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x08008480   0x08008480   0x0000002c   Code   RO          679    .text.IB1_GetParamResponse  lto-llvm-450fdf.o
+    0x080084ac   0x080084ac   0x0000008c   Code   RO          312    .text.IB1_Init      New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x08008538   0x08008538   0x000002e0   Code   RO          326    .text.IB1_ProcessLastResponse  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x08008818   0x08008818   0x00000028   Code   RO          336    .text.IB1_ReceiveSensorCallback  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x08008840   0x08008840   0x00000010   Code   RO          332    .text.IB1_ReceiveSensorIRQHandler  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x08008850   0x08008850   0x0000002c   Code   RO          334    .text.IB1_ReceiveServoCallback  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x0800887c   0x0800887c   0x00000010   Code   RO          330    .text.IB1_ReceiveServoIRQHandler  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x0800888c   0x0800888c   0x0000004c   Code   RO          314    .text.IB1_SetChannels  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x080088d8   0x080088d8   0x0000005c   Code   RO          318    .text.IB1_SetParam  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x08008934   0x08008934   0x00000020   Code   RO          681    .text.IB1_SetParamResponse  lto-llvm-450fdf.o
+    0x08008954   0x08008954   0x00000154   Code   RO          320    .text.IB1_SetupServo  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x08008aa8   0x08008aa8   0x00000020   Code   RO          683    .text.IB1_SetupServoResponse  lto-llvm-450fdf.o
+    0x08008ac8   0x08008ac8   0x00000010   Code   RO          322    .text.IB1_StartDeinit  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x08008ad8   0x08008ad8   0x00000150   Code   RO          324    .text.IB1_TimerCompareCallback  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x08008c28   0x08008c28   0x00000010   Code   RO          316    .text.IB1_TimerCompareIRQHandler  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x08008c38   0x08008c38   0x00000002   Code   RO          793    .text.IB2DTIM_Deinit  lto-llvm-450fdf.o
+    0x08008c3a   0x08008c3a   0x00000002   PAD
+    0x08008c3c   0x08008c3c   0x00000060   Code   RO          795    .text.IB2DTIM_Init  lto-llvm-450fdf.o
+    0x08008c9c   0x08008c9c   0x00000090   Code   RO          799    .text.IB2DTIM_SetNextIRQTime  lto-llvm-450fdf.o
+    0x08008d2c   0x08008d2c   0x000000e8   Code   RO          801    .text.IB2DTIM_StartTimer  lto-llvm-450fdf.o
+    0x08008e14   0x08008e14   0x00000038   Code   RO          803    .text.IB2DTIM_StopTimer  lto-llvm-450fdf.o
+    0x08008e4c   0x08008e4c   0x00000098   Code   RO          267    .text.IB2DTIM_TimerIRQHandler  i-Bus 2 device library M0+ release.lib(i-bus 2 device library.o)
+    0x08008ee4   0x08008ee4   0x00000002   Code   RO          805    .text.IB2DUSART_Deinit  lto-llvm-450fdf.o
+    0x08008ee6   0x08008ee6   0x0000000e   Code   RO          807    .text.IB2DUSART_Init  lto-llvm-450fdf.o
+    0x08008ef4   0x08008ef4   0x0000007c   Code   RO          809    .text.IB2DUSART_ReceiveSetup  lto-llvm-450fdf.o
+    0x08008f70   0x08008f70   0x00000038   Code   RO          811    .text.IB2DUSART_ReceiveStart  lto-llvm-450fdf.o
+    0x08008fa8   0x08008fa8   0x00000014   Code   RO          813    .text.IB2DUSART_ReceiveStop  lto-llvm-450fdf.o
+    0x08008fbc   0x08008fbc   0x00000084   Code   RO          815    .text.IB2DUSART_TransmitSetup  lto-llvm-450fdf.o
+    0x08009040   0x08009040   0x0000001c   Code   RO          817    .text.IB2DUSART_TransmitStart  lto-llvm-450fdf.o
+    0x0800905c   0x0800905c   0x0000007c   Code   RO          779    .text.IB2D_GetParamCallback  lto-llvm-450fdf.o
+    0x080090d8   0x080090d8   0x00000074   Code   RO          783    .text.IB2D_GetValueCallback  lto-llvm-450fdf.o
+    0x0800914c   0x0800914c   0x00000040   Code   RO          273    .text.IB2D_Init     i-Bus 2 device library M0+ release.lib(i-bus 2 device library.o)
+    0x0800918c   0x0800918c   0x00000038   Code   RO          265    .text.IB2D_MsIRQHandler  i-Bus 2 device library M0+ release.lib(i-bus 2 device library.o)
+    0x080091c4   0x080091c4   0x0000004c   Code   RO          279    .text.IB2D_ProcessChannelsCallback  i-Bus 2 device library M0+ release.lib(i-bus 2 device library.o)
+    0x08009210   0x08009210   0x0000002c   Code   RO          275    .text.IB2D_ReceiveChannelsCallback  i-Bus 2 device library M0+ release.lib(i-bus 2 device library.o)
+    0x0800923c   0x0800923c   0x000000e4   Code   RO          277    .text.IB2D_ReceiveChannelsCallbackMedium  i-Bus 2 device library M0+ release.lib(i-bus 2 device library.o)
+    0x08009320   0x08009320   0x00000018   Code   RO          281    .text.IB2D_ReceiveCommandCallback  i-Bus 2 device library M0+ release.lib(i-bus 2 device library.o)
+    0x08009338   0x08009338   0x00000130   Code   RO          283    .text.IB2D_ReceiveCommandCallbackMedium  i-Bus 2 device library M0+ release.lib(i-bus 2 device library.o)
+    0x08009468   0x08009468   0x00000008   Code   RO          785    .text.IB2D_RequiredResourcesCallback  lto-llvm-450fdf.o
+    0x08009470   0x08009470   0x0000002c   Code   RO          269    .text.IB2D_RestartChannelsReceptionCallback  i-Bus 2 device library M0+ release.lib(i-bus 2 device library.o)
+    0x0800949c   0x0800949c   0x00000050   Code   RO          787    .text.IB2D_SetChannelsCallback  lto-llvm-450fdf.o
+    0x080094ec   0x080094ec   0x00000044   Code   RO          789    .text.IB2D_SetChannelsTypeCallback  lto-llvm-450fdf.o
+    0x08009530   0x08009530   0x00000044   Code   RO          791    .text.IB2D_SetFailsafeCallback  lto-llvm-450fdf.o
+    0x08009574   0x08009574   0x00000160   Code   RO          781    .text.IB2D_SetParamCallback  lto-llvm-450fdf.o
+    0x080096d4   0x080096d4   0x00000068   Code   RO          797    .text.IB2D_StatusChangedCallback  lto-llvm-450fdf.o
+    0x0800973c   0x0800973c   0x00000018   Code   RO          363    .text.IB2_CallGetParamResponseCallback  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x08009754   0x08009754   0x00000014   Code   RO          365    .text.IB2_CallSetParamResponseCallback  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x08009768   0x08009768   0x00000024   Code   RO          341    .text.IB2_FailsafeChanged  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0800978c   0x0800978c   0x000003a0   Code   RO          345    .text.IB2_GetNextSensor  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x08009b2c   0x08009b2c   0x000000d0   Code   RO          343    .text.IB2_GetParam  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x08009bfc   0x08009bfc   0x00000014   Code   RO          685    .text.IB2_GetParamResponse  lto-llvm-450fdf.o
+    0x08009c10   0x08009c10   0x00000118   Code   RO          351    .text.IB2_HubInit   New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x08009d28   0x08009d28   0x0000009c   Code   RO          347    .text.IB2_Init      New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x08009dc4   0x08009dc4   0x00000330   Code   RO          359    .text.IB2_ProcessLastResponseCallback  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0800a0f4   0x0800a0f4   0x000001f0   Code   RO          361    .text.IB2_ReassignValueBuffer  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0800a2e4   0x0800a2e4   0x00000068   Code   RO          369    .text.IB2_SendChannelsCallback  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0800a34c   0x0800a34c   0x00000034   Code   RO          367    .text.IB2_SendChannelsIRQHandler  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0800a380   0x0800a380   0x0000003c   Code   RO          373    .text.IB2_SendCommandCallback  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0800a3bc   0x0800a3bc   0x00000010   Code   RO          371    .text.IB2_SendCommandIRQHandler  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0800a3cc   0x0800a3cc   0x0000095c   Code   RO          353    .text.IB2_SetChannels  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0800ad28   0x0800ad28   0x00000104   Code   RO          355    .text.IB2_SetParam  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0800ae2c   0x0800ae2c   0x00000014   Code   RO          687    .text.IB2_SetParamResponse  lto-llvm-450fdf.o
+    0x0800ae40   0x0800ae40   0x00000010   Code   RO          357    .text.IB2_StartDeinit  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0800ae50   0x0800ae50   0x00000160   Code   RO          349    .text.IB2_TimerCompareIRQHandler  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0800afb0   0x0800afb0   0x00000168   Code   RO          431    .text.IB_BuildRealtimePacketCallback  New Port 4 channels 4 ports M0+ release.lib(npt i-bus common.o)
+    0x0800b118   0x0800b118   0x0000000c   Code   RO          433    .text.IB_ResetSensors  New Port 4 channels 4 ports M0+ release.lib(npt i-bus common.o)
+    0x0800b124   0x0800b124   0x00000008   Code   RO          663    .text.LNKTIM_GetCounter  lto-llvm-450fdf.o
+    0x0800b12c   0x0800b12c   0x0000006c   Code   RO          665    .text.LNKTIM_Init   lto-llvm-450fdf.o
+    0x0800b198   0x0800b198   0x0000004c   Code   RO          667    .text.LNKTIM_SetNextCompareIRQTime  lto-llvm-450fdf.o
+    0x0800b1e4   0x0800b1e4   0x00000048   Code   RO          669    .text.LNKTIM_SetNextCompareIRQTimeFromMarker  lto-llvm-450fdf.o
+    0x0800b22c   0x0800b22c   0x00000014   Code   RO          671    .text.LNKTIM_SetTimeMarker  lto-llvm-450fdf.o
+    0x0800b240   0x0800b240   0x00000064   Code   RO          673    .text.LNKTIM_StartTimer  lto-llvm-450fdf.o
+    0x0800b2a4   0x0800b2a4   0x00000010   Code   RO          675    .text.LNKTIM_StopTimer  lto-llvm-450fdf.o
+    0x0800b2b4   0x0800b2b4   0x00000b04   Code   RO          153    .text.LNKTIM_TimerCompareIRQHandler  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800bdb8   0x0800bdb8   0x000000ec   Code   RO          139    .text.LNK_Bind      AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800bea4   0x0800bea4   0x00000070   Code   RO          389    .text.LNK_BindCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x0800bf14   0x0800bf14   0x00000048   Code   RO          179    .text.LNK_BuildTXPacketCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800bf5c   0x0800bf5c   0x000003ac   Code   RO          421    .text.LNK_BuildTXPacketCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x0800c308   0x0800c308   0x0000001c   Code   RO          185    .text.LNK_CallBlackBoxRXCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c324   0x0800c324   0x0000001c   Code   RO          163    .text.LNK_CallBlackBoxTXCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c340   0x0800c340   0x00000010   Code   RO          177    .text.LNK_CallBuildTXPacketCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c350   0x0800c350   0x00000018   Code   RO          175    .text.LNK_CallHeartbeatCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c368   0x0800c368   0x0000002c   Code   RO          165    .text.LNK_CallSuccessfullyBound  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c394   0x0800c394   0x000000ec   Code   RO          143    .text.LNK_Factory   AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c480   0x0800c480   0x00000024   Code   RO          183    .text.LNK_FactoryMeasureRSSICallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c4a4   0x0800c4a4   0x0000000c   Code   RO          721    .text.LNK_FactorySaveConfigCallback  lto-llvm-450fdf.o
+    0x0800c4b0   0x0800c4b0   0x00000018   Code   RO          145    .text.LNK_GetLastRXConditions  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c4c8   0x0800c4c8   0x0000002c   Code   RO          147    .text.LNK_GetRFPower  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c4f4   0x0800c4f4   0x00000350   Code   RO          171    .text.LNK_HeartbeatCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c844   0x0800c844   0x00000038   Code   RO          423    .text.LNK_HeartbeatCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x0800c87c   0x0800c87c   0x00000028   Code   RO          149    .text.LNK_Idle      AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c8a4   0x0800c8a4   0x0000002c   Code   RO          151    .text.LNK_Init      AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800c8d0   0x0800c8d0   0x00000284   Code   RO          419    .text.LNK_PacketReceivedCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x0800cb54   0x0800cb54   0x00000078   Code   RO          167    .text.LNK_PacketReceivedCallbackBind  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800cbcc   0x0800cbcc   0x00000230   Code   RO          181    .text.LNK_PacketReceivedCallbackFactory  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800cdfc   0x0800cdfc   0x0000016c   Code   RO          173    .text.LNK_PacketReceivedCallbackRun  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800cf68   0x0800cf68   0x00000120   Code   RO          425    .text.LNK_PacketReceivedCallbackStoreWSStatus  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x0800d088   0x0800d088   0x0000029c   Code   RO          187    .text.LNK_ProcessRXPacketBindCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800d324   0x0800d324   0x0000008c   Code   RO          191    .text.LNK_ProcessRXPacketRunCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800d3b0   0x0800d3b0   0x00000410   Code   RO          155    .text.LNK_Run       AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800d7c0   0x0800d7c0   0x00000140   Code   RO          189    .text.LNK_SaveBoundConfig  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800d900   0x0800d900   0x0000002c   Code   RO          157    .text.LNK_SetAntenna  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800d92c   0x0800d92c   0x00000018   Code   RO          159    .text.LNK_SetRFPower  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800d944   0x0800d944   0x00000014   Code   RO          141    .text.LNK_Stop      AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800d958   0x0800d958   0x00000014   Code   RO          169    .text.LNK_SynchronizationLostCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800d96c   0x0800d96c   0x00000268   Code   RO          161    .text.LNK_Test      AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0800dbd4   0x0800dbd4   0x000000fc   Code   RO          729    .text.NPTTIM_DisableChannel  lto-llvm-450fdf.o
+    0x0800dcd0   0x0800dcd0   0x00000198   Code   RO          731    .text.NPTTIM_EnableChannel  lto-llvm-450fdf.o
+    0x0800de68   0x0800de68   0x00000080   Code   RO          733    .text.NPTTIM_FreezeCompareIRQ  lto-llvm-450fdf.o
+    0x0800dee8   0x0800dee8   0x00000028   Code   RO          735    .text.NPTTIM_GetCounter  lto-llvm-450fdf.o
+    0x0800df10   0x0800df10   0x000000dc   Code   RO          737    .text.NPTTIM_SetNextCompareIRQCounter  lto-llvm-450fdf.o
+    0x0800dfec   0x0800dfec   0x00000014   Code   RO          739    .text.NPTTIM_SetNextCompareIRQTime  lto-llvm-450fdf.o
+    0x0800e000   0x0800e000   0x000000d0   Code   RO          741    .text.NPTTIM_SetNextCompareIRQTimeFromNow  lto-llvm-450fdf.o
+    0x0800e0d0   0x0800e0d0   0x00000108   Code   RO          725    .text.NPTTIM_SetNextCompareIRQTimeInternal  lto-llvm-450fdf.o
+    0x0800e1d8   0x0800e1d8   0x00000094   Code   RO          743    .text.NPTTIM_TriggerIRQ  lto-llvm-450fdf.o
+    0x0800e26c   0x0800e26c   0x00000038   Code   RO          290    .text.NPT_BuildRealtimePacketCallback  New Port 4 channels 4 ports M0+ release.lib(new port.o)
+    0x0800e2a4   0x0800e2a4   0x00000024   Code   RO          292    .text.NPT_FailsafeChanged  New Port 4 channels 4 ports M0+ release.lib(new port.o)
+    0x0800e2c8   0x0800e2c8   0x000000f0   Code   RO          689    .text.NPT_GetInternalSensor  lto-llvm-450fdf.o
+    0x0800e3b8   0x0800e3b8   0x00000380   Code   RO          294    .text.NPT_Init      New Port 4 channels 4 ports M0+ release.lib(new port.o)
+    0x0800e738   0x0800e738   0x00000014   Code   RO          288    .text.NPT_MsIRQHandler  New Port 4 channels 4 ports M0+ release.lib(new port.o)
+    0x0800e74c   0x0800e74c   0x000000b0   Code   RO          298    .text.NPT_SetChannels  New Port 4 channels 4 ports M0+ release.lib(new port.o)
+    0x0800e7fc   0x0800e7fc   0x00000010   Code   RO          300    .text.NPT_SetPWMFrequencies  New Port 4 channels 4 ports M0+ release.lib(new port.o)
+    0x0800e80c   0x0800e80c   0x00000008   Code   RO          302    .text.NPT_SetWSUSARTConfig  New Port 4 channels 4 ports M0+ release.lib(new port.o)
+    0x0800e814   0x0800e814   0x00000050   Code   RO          304    .text.NPT_StartDeinit  New Port 4 channels 4 ports M0+ release.lib(new port.o)
+    0x0800e864   0x0800e864   0x00000018   Code   RO          296    .text.NPT_WSDataReceivedCallback  New Port 4 channels 4 ports M0+ release.lib(new port.o)
+    0x0800e87c   0x0800e87c   0x00000038   Code   RO           68    .text.PHY_GetInstantRSSI  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800e8b4   0x0800e8b4   0x00000018   Code   RO           70    .text.PHY_GetLastRXConditions  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800e8cc   0x0800e8cc   0x00000078   Code   RO           72    .text.PHY_Init      AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800e944   0x0800e944   0x00000158   Code   RO           80    .text.PHY_RX        AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800ea9c   0x0800ea9c   0x00000088   Code   RO           84    .text.PHY_RXCallback1  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800eb24   0x0800eb24   0x00000024   Code   RO          106    .text.PHY_RXCallback2  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800eb48   0x0800eb48   0x00000014   Code   RO          108    .text.PHY_RXCallback3  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800eb5c   0x0800eb5c   0x00000014   Code   RO          110    .text.PHY_RXCallback4  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800eb70   0x0800eb70   0x00000034   Code   RO           76    .text.PHY_ResumeRX  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800eba4   0x0800eba4   0x00000014   Code   RO           78    .text.PHY_ResumeRXCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800ebb8   0x0800ebb8   0x000000d0   Code   RO           82    .text.PHY_SX1280_ContinueResetAndInit  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800ec88   0x0800ec88   0x00000028   Code   RO          100    .text.PHY_SX1280_ContinueResetAndInitCallback1  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800ecb0   0x0800ecb0   0x0000002c   Code   RO          102    .text.PHY_SX1280_ContinueResetAndInitCallback2  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800ecdc   0x0800ecdc   0x0000000c   Code   RO          104    .text.PHY_SX1280_ContinueResetAndInitCallback3  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800ece8   0x0800ece8   0x00000044   Code   RO           60    .text.PHY_SX1280_DIO1IRQHandler  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800ed2c   0x0800ed2c   0x0000001c   Code   RO           62    .text.PHY_SX1280_DIO1IRQHandlerCallback1  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800ed48   0x0800ed48   0x00000054   Code   RO           94    .text.PHY_SX1280_DIO1IRQHandlerCallback2  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800ed9c   0x0800ed9c   0x00000084   Code   RO           96    .text.PHY_SX1280_DIO1IRQHandlerCallback3  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800ee20   0x0800ee20   0x00000080   Code   RO           98    .text.PHY_SX1280_DIO1IRQHandlerCallback4  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800eea0   0x0800eea0   0x00000010   Code   RO          697    .text.PHY_SX1280_IsBusy  lto-llvm-450fdf.o
+    0x0800eeb0   0x0800eeb0   0x00000018   Code   RO          699    .text.PHY_SX1280_SetResetPin  lto-llvm-450fdf.o
+    0x0800eec8   0x0800eec8   0x000001a0   Code   RO           86    .text.PHY_SetConfig  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800f068   0x0800f068   0x0000027c   Code   RO           88    .text.PHY_SetConfigCalcTXRXTime  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800f2e4   0x0800f2e4   0x00000044   Code   RO          695    .text.PHY_SetPAMode  lto-llvm-450fdf.o
+    0x0800f328   0x0800f328   0x00000048   Code   RO           66    .text.PHY_Stop      AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800f370   0x0800f370   0x0000020c   Code   RO           90    .text.PHY_TX        AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800f57c   0x0800f57c   0x00000088   Code   RO           92    .text.PHY_TXCallback1  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800f604   0x0800f604   0x00000078   Code   RO          112    .text.PHY_TXCallback2  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800f67c   0x0800f67c   0x00000024   Code   RO          114    .text.PHY_TXCallback3  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800f6a0   0x0800f6a0   0x00000044   Code   RO          116    .text.PHY_TXCallback4  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800f6e4   0x0800f6e4   0x00000018   Code   RO          118    .text.PHY_TXCallback5  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800f6fc   0x0800f6fc   0x00000040   Code   RO          120    .text.PHY_TXCallback6  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800f73c   0x0800f73c   0x0000050c   Code   RO           64    .text.PHY_TimerCompareIRQHandler  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x0800fc48   0x0800fc48   0x00000028   Code   RO          471    .text.PPM_Init      New Port 4 channels 4 ports M0+ release.lib(npt ppm.o)
+    0x0800fc70   0x0800fc70   0x00000088   Code   RO          475    .text.PPM_SetChannels  New Port 4 channels 4 ports M0+ release.lib(npt ppm.o)
+    0x0800fcf8   0x0800fcf8   0x00000010   Code   RO          477    .text.PPM_StartDeinit  New Port 4 channels 4 ports M0+ release.lib(npt ppm.o)
+    0x0800fd08   0x0800fd08   0x000000d0   Code   RO          479    .text.PPM_TimerCompareCallback  New Port 4 channels 4 ports M0+ release.lib(npt ppm.o)
+    0x0800fdd8   0x0800fdd8   0x00000010   Code   RO          473    .text.PPM_TimerCompareIRQHandler  New Port 4 channels 4 ports M0+ release.lib(npt ppm.o)
+    0x0800fde8   0x0800fde8   0x000000e4   Code   RO          775    .text.PWMA_Activate  lto-llvm-450fdf.o
+    0x0800fecc   0x0800fecc   0x00000008   Code   RO          777    .text.PWMA_CallPWMSetFrequency  lto-llvm-450fdf.o
+    0x0800fed4   0x0800fed4   0x00000008   Code   RO          745    .text.PWMA_IBus1TimerIRQHandler  lto-llvm-450fdf.o
+    0x0800fedc   0x0800fedc   0x00000008   Code   RO          747    .text.PWMA_IBus2TimerIRQHandler  lto-llvm-450fdf.o
+    0x0800fee4   0x0800fee4   0x00000088   Code   RO          483    .text.PWM_Init      New Port 4 channels 4 ports M0+ release.lib(npt pwm.o)
+    0x0800ff6c   0x0800ff6c   0x000001cc   Code   RO          489    .text.PWM_SetChannels  New Port 4 channels 4 ports M0+ release.lib(npt pwm.o)
+    0x08010138   0x08010138   0x00000010   Code   RO          491    .text.PWM_SetFrequencies  New Port 4 channels 4 ports M0+ release.lib(npt pwm.o)
+    0x08010148   0x08010148   0x0000018c   Code   RO          485    .text.PWM_SetFrequenciesInternal  New Port 4 channels 4 ports M0+ release.lib(npt pwm.o)
+    0x080102d4   0x080102d4   0x00000014   Code   RO          493    .text.PWM_StartDeinit  New Port 4 channels 4 ports M0+ release.lib(npt pwm.o)
+    0x080102e8   0x080102e8   0x00000110   Code   RO          495    .text.PWM_TimerCompareCallback  New Port 4 channels 4 ports M0+ release.lib(npt pwm.o)
+    0x080103f8   0x080103f8   0x00000010   Code   RO          487    .text.PWM_TimerCompareIRQHandler  New Port 4 channels 4 ports M0+ release.lib(npt pwm.o)
+    0x08010408   0x08010408   0x00000008   Code   RO          823    .text.RTC_TAMP_IRQHandler  lto-llvm-450fdf.o
+    0x08010410   0x08010410   0x00000028   Code   RO          440    .text.SB_Init       New Port 4 channels 4 ports M0+ release.lib(npt s-bus.o)
+    0x08010438   0x08010438   0x0000003c   Code   RO          442    .text.SB_SetChannels  New Port 4 channels 4 ports M0+ release.lib(npt s-bus.o)
+    0x08010474   0x08010474   0x00000010   Code   RO          446    .text.SB_StartDeinit  New Port 4 channels 4 ports M0+ release.lib(npt s-bus.o)
+    0x08010484   0x08010484   0x00000104   Code   RO          448    .text.SB_TimerCompareCallback  New Port 4 channels 4 ports M0+ release.lib(npt s-bus.o)
+    0x08010588   0x08010588   0x00000010   Code   RO          444    .text.SB_TimerCompareIRQHandler  New Port 4 channels 4 ports M0+ release.lib(npt s-bus.o)
+    0x08010598   0x08010598   0x0000004c   Code   RO          201    .text.SES_Bind      AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x080105e4   0x080105e4   0x000002a4   Code   RO          719    .text.SES_BindCallback  lto-llvm-450fdf.o
+    0x08010888   0x08010888   0x0000003c   Code   RO          715    .text.SES_BuildRealtimePacketCallback  lto-llvm-450fdf.o
+    0x080108c4   0x080108c4   0x000006cc   Code   RO          709    .text.SES_CommandReceivedCallback  lto-llvm-450fdf.o
+    0x08010f90   0x08010f90   0x0000001c   Code   RO          207    .text.SES_Factory   AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08010fac   0x08010fac   0x00000014   Code   RO          213    .text.SES_GetRFCycleTime  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08010fc0   0x08010fc0   0x0000003c   Code   RO          717    .text.SES_HeartbeatCallback  lto-llvm-450fdf.o
+    0x08010ffc   0x08010ffc   0x00000014   Code   RO          219    .text.SES_Idle      AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08011010   0x08011010   0x00000010   Code   RO          221    .text.SES_Init      AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08011020   0x08011020   0x00000008   Code   RO          223    .text.SES_IsWSIdle  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08011028   0x08011028   0x00000040   Code   RO          199    .text.SES_MsIRQHandler  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08011068   0x08011068   0x00000130   Code   RO           34    .text.SES_PackChannels  AFHDS3 RC channels packing library M0+ release.lib(afhds3 rc channels packing library.o)
+    0x08011198   0x08011198   0x00000150   Code   RO           36    .text.SES_PackOneChannel  AFHDS3 RC channels packing library M0+ release.lib(afhds3 rc channels packing library.o)
+    0x080112e8   0x080112e8   0x00000098   Code   RO           29    .text.SES_PackPWMFrequencies  AFHDS3 PWM frequencies packing library M0+ release.lib(afhds3 pwm frequencies packing library.o)
+    0x08011380   0x08011380   0x00000004   Code   RO          711    .text.SES_PreSetChannelsCallback  lto-llvm-450fdf.o
+    0x08011384   0x08011384   0x00000254   Code   RO          249    .text.SES_ProcessCommand  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x080115d8   0x080115d8   0x00000204   Code   RO          705    .text.SES_RealtimePacketReceivedCallback  lto-llvm-450fdf.o
+    0x080117dc   0x080117dc   0x00000014   Code   RO          225    .text.SES_Run       AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x080117f0   0x080117f0   0x000000ec   Code   RO          227    .text.SES_Run2      AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x080118dc   0x080118dc   0x000000d0   Code   RO          229    .text.SES_SendCommand  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x080119ac   0x080119ac   0x00000084   Code   RO          231    .text.SES_SendCommandCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08011a30   0x08011a30   0x000000d0   Code   RO          233    .text.SES_SendResponse  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08011b00   0x08011b00   0x0000006a   Code   RO          235    .text.SES_SendWSData  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08011b6a   0x08011b6a   0x00000002   PAD
+    0x08011b6c   0x08011b6c   0x000000f0   Code   RO          247    .text.SES_SetChannels  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08011c5c   0x08011c5c   0x000000ac   Code   RO          713    .text.SES_SetChannelsCallback  lto-llvm-450fdf.o
+    0x08011d08   0x08011d08   0x00000020   Code   RO          237    .text.SES_Test      AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08011d28   0x08011d28   0x000000fc   Code   RO           38    .text.SES_UnpackChannels  AFHDS3 RC channels packing library M0+ release.lib(afhds3 rc channels packing library.o)
+    0x08011e24   0x08011e24   0x00000086   Code   RO           31    .text.SES_UnpackPWMFrequencies  AFHDS3 PWM frequencies packing library M0+ release.lib(afhds3 pwm frequencies packing library.o)
+    0x08011eaa   0x08011eaa   0x00000002   PAD
+    0x08011eac   0x08011eac   0x00000018   Code   RO          707    .text.SES_WSDataReceivedCallback  lto-llvm-450fdf.o
+    0x08011ec4   0x08011ec4   0x00000080   Code   RO          655    .text.SPI_Transfer  lto-llvm-450fdf.o
+    0x08011f44   0x08011f44   0x000000b8   Code   RO          657    .text.SPI_TransferWait  lto-llvm-450fdf.o
+    0x08011ffc   0x08011ffc   0x00000030   Code   RO           24    .text.SYS_CalcCRC32Table  AFHDS3 CRC library M0+ release.lib(afhds3 crc library.o)
+    0x0801202c   0x0801202c   0x00000020   Code   RO           20    .text.SYS_CalcCRC8Table  AFHDS3 CRC library M0+ release.lib(afhds3 crc library.o)
+    0x0801204c   0x0801204c   0x00000024   Code   RO          827    .text.SYS_CalcChecksum16  lto-llvm-450fdf.o
+    0x08012070   0x08012070   0x00000018   Code   RO          829    .text.SYS_DelayUs   lto-llvm-450fdf.o
+    0x08012088   0x08012088   0x00000018   Code   RO          831    .text.SYS_DisableIRQs  lto-llvm-450fdf.o
+    0x080120a0   0x080120a0   0x00000014   Code   RO          833    .text.SYS_EnableIRQs  lto-llvm-450fdf.o
+    0x080120b4   0x080120b4   0x0000001c   Code   RO          379    .text.SYS_GetSimpleRandomNumber  AFHDS3 simple random number library M0+ release.lib(afhds3 simple random number library.o)
+    0x080120d0   0x080120d0   0x00000058   Code   RO           43    .text.SYS_LowPriorityIRQCallback  AFHDS3 queue low priority IRQ library 8Q4Q M0+ release.lib(afhds3 queue low priority irq library.o)
+    0x08012128   0x08012128   0x00000058   Code   RO           51    .text.SYS_MediumPriorityIRQCallback  AFHDS3 queue medium priority IRQ library 8Q32Q M0+ release.lib(afhds3 queue medium priority irq library.o)
+    0x08012180   0x08012180   0x0000002c   Code   RO           45    .text.SYS_QueueLowPriorityIRQCallback  AFHDS3 queue low priority IRQ library 8Q4Q M0+ release.lib(afhds3 queue low priority irq library.o)
+    0x080121ac   0x080121ac   0x00000030   Code   RO           47    .text.SYS_QueueLowPriorityIRQCallbackLast  AFHDS3 queue low priority IRQ library 8Q4Q M0+ release.lib(afhds3 queue low priority irq library.o)
+    0x080121dc   0x080121dc   0x0000002c   Code   RO           53    .text.SYS_QueueMediumPriorityIRQCallback  AFHDS3 queue medium priority IRQ library 8Q32Q M0+ release.lib(afhds3 queue medium priority irq library.o)
+    0x08012208   0x08012208   0x00000038   Code   RO           55    .text.SYS_QueueMediumPriorityIRQCallbackLast  AFHDS3 queue medium priority IRQ library 8Q32Q M0+ release.lib(afhds3 queue medium priority irq library.o)
+    0x08012240   0x08012240   0x00000034   Code   RO          835    .text.SYS_ResetToBootloader  lto-llvm-450fdf.o
+    0x08012274   0x08012274   0x00000008   Code   RO          837    .text.SYS_TriggerLowPriorityCallback  lto-llvm-450fdf.o
+    0x0801227c   0x0801227c   0x0000000c   Code   RO          839    .text.SYS_TriggerMediumPriorityCallback  lto-llvm-450fdf.o
+    0x08012288   0x08012288   0x00000002   Code   RO          825    .text.SystemInit    lto-llvm-450fdf.o
+    0x0801228a   0x0801228a   0x00000002   PAD
+    0x0801228c   0x0801228c   0x00000190   Code   RO          727    .text.TIM15_IRQHandler  lto-llvm-450fdf.o
+    0x0801241c   0x0801241c   0x00000070   Code   RO          661    .text.TIM17_IRQHandler  lto-llvm-450fdf.o
+    0x0801248c   0x0801248c   0x000001ac   Code   RO          723    .text.TIM1_CC_IRQHandler  lto-llvm-450fdf.o
+    0x08012638   0x08012638   0x000000dc   Code   RO          819    .text.TIM6_IRQHandler  lto-llvm-450fdf.o
+    0x08012714   0x08012714   0x0000003c   Code   RO          385    .text.TRA_Bind      AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x08012750   0x08012750   0x00000108   Code   RO          205    .text.TRA_BindCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08012858   0x08012858   0x00000018   Code   RO          243    .text.TRA_BuildRealtimePacketCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08012870   0x08012870   0x0000001c   Code   RO          391    .text.TRA_Factory   AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x0801288c   0x0801288c   0x00000014   Code   RO          397    .text.TRA_GetRFCycleTime  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x080128a0   0x080128a0   0x00000070   Code   RO          245    .text.TRA_HeartbeatCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08012910   0x08012910   0x00000018   Code   RO          401    .text.TRA_Idle      AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x08012928   0x08012928   0x00000010   Code   RO          403    .text.TRA_Init      AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x08012938   0x08012938   0x00000050   Code   RO          405    .text.TRA_IsWSIdle  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x08012988   0x08012988   0x000000fc   Code   RO          239    .text.TRA_RealtimePacketReceivedCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08012a84   0x08012a84   0x00000018   Code   RO          407    .text.TRA_Run       AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x08012a9c   0x08012a9c   0x000000e8   Code   RO          409    .text.TRA_Run2      AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x08012b84   0x08012b84   0x000000fc   Code   RO          411    .text.TRA_SendWSData  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x08012c80   0x08012c80   0x00000034   Code   RO          413    .text.TRA_SendWSDataCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x08012cb4   0x08012cb4   0x00000008   Code   RO          415    .text.TRA_SetAntenna  AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x08012cbc   0x08012cbc   0x00000008   Code   RO          387    .text.TRA_Stop      AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x08012cc4   0x08012cc4   0x00000020   Code   RO          417    .text.TRA_Test      AFHDS3 SX1280 receiver V1 M0+ release.lib(tra afhds3.o)
+    0x08012ce4   0x08012ce4   0x00000200   Code   RO          241    .text.TRA_WSDataReceivedCallback  AFHDS3 SX1280 receiver V1 M0+ release.lib(ses afhds3.o)
+    0x08012ee4   0x08012ee4   0x00000064   Code   RO          841    .text.USART1_IRQHandler  lto-llvm-450fdf.o
+    0x08012f48   0x08012f48   0x00000064   Code   RO          843    .text.USART2_IRQHandler  lto-llvm-450fdf.o
+    0x08012fac   0x08012fac   0x0000010c   Code   RO          845    .text.USART3_4_IRQHandler  lto-llvm-450fdf.o
+    0x080130b8   0x080130b8   0x000000c4   Code   RO          847    .text.USART_NPT_Deinit  lto-llvm-450fdf.o
+    0x0801317c   0x0801317c   0x00000018   Code   RO          849    .text.USART_NPT_GetNbReceivedBytes  lto-llvm-450fdf.o
+    0x08013194   0x08013194   0x0000032c   Code   RO          851    .text.USART_NPT_Init  lto-llvm-450fdf.o
+    0x080134c0   0x080134c0   0x000000d0   Code   RO          853    .text.USART_NPT_ReceiveSetup  lto-llvm-450fdf.o
+    0x08013590   0x08013590   0x00000040   Code   RO          855    .text.USART_NPT_ReceiveStart  lto-llvm-450fdf.o
+    0x080135d0   0x080135d0   0x00000018   Code   RO          857    .text.USART_NPT_ReceiveStop  lto-llvm-450fdf.o
+    0x080135e8   0x080135e8   0x000000c8   Code   RO          859    .text.USART_NPT_TransmitSetup  lto-llvm-450fdf.o
+    0x080136b0   0x080136b0   0x00000020   Code   RO          861    .text.USART_NPT_TransmitStart  lto-llvm-450fdf.o
+    0x080136d0   0x080136d0   0x00000050   Code   RO          455    .text.WS_DataReceivedCallback  New Port 4 channels 4 ports M0+ release.lib(npt ws.o)
+    0x08013720   0x08013720   0x00000024   Code   RO          457    .text.WS_Deinit     New Port 4 channels 4 ports M0+ release.lib(npt ws.o)
+    0x08013744   0x08013744   0x00000060   Code   RO          459    .text.WS_Init       New Port 4 channels 4 ports M0+ release.lib(npt ws.o)
+    0x080137a4   0x080137a4   0x00000028   Code   RO          453    .text.WS_MsIRQHandler  New Port 4 channels 4 ports M0+ release.lib(npt ws.o)
+    0x080137cc   0x080137cc   0x00000090   Code   RO          461    .text.WS_SendData   New Port 4 channels 4 ports M0+ release.lib(npt ws.o)
+    0x0801385c   0x0801385c   0x00000030   Code   RO          465    .text.WS_SetUSARTConfig  New Port 4 channels 4 ports M0+ release.lib(npt ws.o)
+    0x0801388c   0x0801388c   0x0000004c   Code   RO          463    .text.WS_TransmitCallback  New Port 4 channels 4 ports M0+ release.lib(npt ws.o)
+    0x080138d8   0x080138d8   0x00000010   Code   RO          467    .text.WS_TransmitIRQHandler  New Port 4 channels 4 ports M0+ release.lib(npt ws.o)
+    0x080138e8   0x080138e8   0x00000014   Code   RO          821    .text.WWDG_IRQHandler  lto-llvm-450fdf.o
+    0x080138fc   0x080138fc   0x00000b98   Code   RO          701    .text.main          lto-llvm-450fdf.o
+    0x08014494   0x08014494   0x000001f6   Code   RO          509    .text_divfast       c_p.l(aeabi_sdivfast.o)
+    0x0801468a   0x0801468a   0x00000002   PAD
+    0x0801468c   0x0801468c   0x00000190   Code   RO          377    i.Encrypt_GenerateCode  Encryption library M0 release.lib(encryption library.o)
+    0x0801481c   0x0801481c   0x00000003   Data   RO          918    .rodata.APP_WS_DefaultUSARTConfig  lto-llvm-450fdf.o
+    0x0801481f   0x0801481f   0x00000003   Data   RO          933    .rodata.IB1D_Description  lto-llvm-450fdf.o
+    0x08014822   0x08014822   0x00000001   Data   RO          932    .rodata.IB1D_NbDevices  lto-llvm-450fdf.o
+    0x08014823   0x08014823   0x00000001   PAD
+    0x08014824   0x08014824   0x00000004   Data   RO          934    .rodata.IB1D_ReceiveTimeoutOffset  lto-llvm-450fdf.o
+    0x08014828   0x08014828   0x00000004   Data   RO          935    .rodata.IB1D_TransmitTimeDelay  lto-llvm-450fdf.o
+    0x0801482c   0x0801482c   0x00000003   Data   RO          338    .rodata.IB1_USARTConfig  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 1.o)
+    0x0801482f   0x0801482f   0x00000001   PAD
+    0x08014830   0x08014830   0x00000064   Data   RO          937    .rodata.IB2D_InitStruct  lto-llvm-450fdf.o
+    0x08014894   0x08014894   0x00000003   Data   RO          285    .rodata.IB2D_USARTConfig  i-Bus 2 device library M0+ release.lib(i-bus 2 device library.o)
+    0x08014897   0x08014897   0x00000003   Data   RO          375    .rodata.IB2_USARTConfig  New Port 4 channels 4 ports M0+ release.lib(npt i-bus 2.o)
+    0x0801489a   0x0801489a   0x00000002   PAD
+    0x0801489c   0x0801489c   0x00000008   Data   RO          878    .rodata.LEDP_InternalError  lto-llvm-450fdf.o
+    0x080148a4   0x080148a4   0x00000008   Data   RO          873    .rodata.LED_Bind    lto-llvm-450fdf.o
+    0x080148ac   0x080148ac   0x00000008   Data   RO          877    .rodata.LED_Factory  lto-llvm-450fdf.o
+    0x080148b4   0x080148b4   0x00000008   Data   RO          880    .rodata.LED_PWMA_Configured  lto-llvm-450fdf.o
+    0x080148bc   0x080148bc   0x00000008   Data   RO          879    .rodata.LED_PWMA_NoSignal  lto-llvm-450fdf.o
+    0x080148c4   0x080148c4   0x00000008   Data   RO          875    .rodata.LED_Synchronized  lto-llvm-450fdf.o
+    0x080148cc   0x080148cc   0x00000008   Data   RO          874    .rodata.LED_Synchronizing  lto-llvm-450fdf.o
+    0x080148d4   0x080148d4   0x00000008   Data   RO          876    .rodata.LED_Test    lto-llvm-450fdf.o
+    0x080148dc   0x080148dc   0x000000a1   Data   RO          196    .rodata.LNK_SignalStrengthTable  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0801497d   0x0801497d   0x00000003   PAD
+    0x08014980   0x08014980   0x0000000e   Data   RO          194    .rodata.PHY_ConfigBind  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0801498e   0x0801498e   0x00000002   PAD
+    0x08014990   0x08014990   0x0000000e   Data   RO          195    .rodata.PHY_ConfigFactory  AFHDS3 SX1280 receiver V1 M0+ release.lib(lnk afhds3 receiver.o)
+    0x0801499e   0x0801499e   0x00000003   Data   RO          128    .rodata.PHY_SX1280_Cmd_ClearIRQStatusTXRXDone  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x080149a1   0x080149a1   0x00000004   Data   RO          129    .rodata.PHY_SX1280_Cmd_GetIRQStatus  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x080149a5   0x080149a5   0x00000007   Data   RO          130    .rodata.PHY_SX1280_Cmd_GetPacketStatus  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x080149ac   0x080149ac   0x00000003   Data   RO          126    .rodata.PHY_SX1280_Cmd_GetRSSIInst  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x080149af   0x080149af   0x00000003   Data   RO          132    .rodata.PHY_SX1280_Cmd_SetBufferBaseAddress  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x080149b2   0x080149b2   0x00000001   Data   RO          133    .rodata.PHY_SX1280_Cmd_SetFS  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x080149b3   0x080149b3   0x00000004   Data   RO          125    .rodata.PHY_SX1280_Cmd_SetRX  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x080149b7   0x080149b7   0x00000002   Data   RO          122    .rodata.PHY_SX1280_Cmd_SetStandbyXOSC  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x080149b9   0x080149b9   0x00000004   Data   RO          124    .rodata.PHY_SX1280_Cmd_SetTX  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x080149bd   0x080149bd   0x00000001   Data   RO          123    .rodata.PHY_SX1280_Cmd_SetTXContinuousWave  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x080149be   0x080149be   0x00000018   Data   RO          127    .rodata.PHY_SX1280_InitRegisters  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x080149d6   0x080149d6   0x0000002c   Data   RO          134    .rodata.PHY_SX1280_SymbolTimeTable  AFHDS3 SX1280 receiver V1 M0+ release.lib(phy sx1280.o)
+    0x08014a02   0x08014a02   0x00000001   Data   RO          920    .rodata.PWM_RXFirstPWMRCChannelNb  lto-llvm-450fdf.o
+    0x08014a03   0x08014a03   0x00000003   Data   RO          450    .rodata.SB_USARTConfig  New Port 4 channels 4 ports M0+ release.lib(npt s-bus.o)
+    0x08014a06   0x08014a06   0x00000002   PAD
+    0x08014a08   0x08014a08   0x00000014   Data   RO          905    .rodata.SES_BindStruct  lto-llvm-450fdf.o
+    0x08014a1c   0x08014a1c   0x00000020   Data   RO          917    .rodata.SES_Capabilities  lto-llvm-450fdf.o
+    0x08014a3c   0x08014a3c   0x00000024   Data   RO          497    .rodata.SES_NarrowPWMStandards  New Port 4 channels 4 ports M0+ release.lib(npt pwm.o)
+    0x08014a60   0x08014a60   0x00000080   Data   RO           41    .rodata.SES_UnpackChannelsFactors  AFHDS3 RC channels packing library M0+ release.lib(afhds3 rc channels packing library.o)
+    0x08014ae0   0x08014ae0   0x00000400   Data   RO           27    .rodata.SYS_CRC32Table  AFHDS3 CRC library M0+ release.lib(afhds3 crc library.o)
+    0x08014ee0   0x08014ee0   0x00000100   Data   RO           26    .rodata.SYS_CRC8Table  AFHDS3 CRC library M0+ release.lib(afhds3 crc library.o)
+    0x08014fe0   0x08014fe0   0x00000001   Data   RO          947    .rodata.USART_NPT_ReceiveTimeDelay  lto-llvm-450fdf.o
+    0x08014fe1   0x08014fe1   0x00000001   Data   RO          949    .rodata.USART_NPT_TransmitCompleteTimeDelay  lto-llvm-450fdf.o
+    0x08014fe2   0x08014fe2   0x00000001   Data   RO          948    .rodata.USART_NPT_TransmitTimeDelay  lto-llvm-450fdf.o
+    0x08014fe3   0x08014fe3   0x00000001   PAD
+    0x08014fe4   0x08014fe4   0x00000040   Data   RO           40    .rodata.cst32       AFHDS3 RC channels packing library M0+ release.lib(afhds3 rc channels packing library.o)
+    0x08015024   0x08015024   0x0000000c   Data   RO          930    .rodata.cst4        lto-llvm-450fdf.o
+
+
+
+  Load Region LR$$.ARM.__at_0x08006F80 (Base: 0x08006f80, Size: 0x00000004, Max: 0x00000004, ABSOLUTE)
+
+    Execution Region ER$$.ARM.__at_0x08006F80 (Exec base: 0x08006f80, Load base: 0x08006f80, Size: 0x00000004, Max: 0x00000004, ABSOLUTE, UNINIT)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08006f80   0x08006f80   0x00000004   Data   RO          942    .ARM.__at_0x08006F80  lto-llvm-450fdf.o
+
+
+
+  Load Region LR$$.ARM.__at_0x08006F84 (Base: 0x08006f84, Size: 0x00000004, Max: 0x00000004, ABSOLUTE)
+
+    Execution Region ER$$.ARM.__at_0x08006F84 (Exec base: 0x08006f84, Load base: 0x08006f84, Size: 0x00000004, Max: 0x00000004, ABSOLUTE, UNINIT)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08006f84   0x08006f84   0x00000004   Data   RO          943    .ARM.__at_0x08006F84  lto-llvm-450fdf.o
+
+
+
+  Load Region LR$$.ARM.__at_0x08006F88 (Base: 0x08006f88, Size: 0x00000004, Max: 0x00000004, ABSOLUTE)
+
+    Execution Region ER$$.ARM.__at_0x08006F88 (Exec base: 0x08006f88, Load base: 0x08006f88, Size: 0x00000004, Max: 0x00000004, ABSOLUTE, UNINIT)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08006f88   0x08006f88   0x00000004   Data   RO          944    .ARM.__at_0x08006F88  lto-llvm-450fdf.o
+
+
+
+  Load Region LR$$.ARM.__at_0x08006F8C (Base: 0x08006f8c, Size: 0x00000004, Max: 0x00000004, ABSOLUTE)
+
+    Execution Region ER$$.ARM.__at_0x08006F8C (Exec base: 0x08006f8c, Load base: 0x08006f8c, Size: 0x00000004, Max: 0x00000004, ABSOLUTE, UNINIT)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08006f8c   0x08006f8c   0x00000002   Data   RO          945    .ARM.__at_0x08006F8C  lto-llvm-450fdf.o
+
+
+
+  Load Region LR$$.ARM.__at_0x08006F90 (Base: 0x08006f90, Size: 0x00000070, Max: 0x00000070, ABSOLUTE)
+
+    Execution Region ER$$.ARM.__at_0x08006F90 (Exec base: 0x08006f90, Load base: 0x08006f90, Size: 0x00000070, Max: 0x00000070, ABSOLUTE, UNINIT)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08006f90   0x08006f90   0x00000070   Data   RO          946    .ARM.__at_0x08006F90  lto-llvm-450fdf.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+     16600       2042        373        376       1787          0   lto-llvm-450fdf.o
+        52         22        184          0       1024          0   startup_stm32g070xx.o
+
+    ----------------------------------------------------------------------
+     16656       2064        593        376       2852          0   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         4          0          4          0         41          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+        80          8       1280          0          0          0   afhds3 crc library.o
+       286          0          0          0          0          0   afhds3 pwm frequencies packing library.o
+       892         24        192          0          0          0   afhds3 rc channels packing library.o
+      8476        326        189          0        520          0   lnk afhds3 receiver.o
+      4960        368        100          3        250          0   phy sx1280.o
+      3174        180          0         20        188          0   ses afhds3.o
+      2876        128          0         16        596          0   tra afhds3.o
+       180          4          0          0        100          0   afhds3 queue low priority irq library.o
+       188          8          0          0        324          0   afhds3 queue medium priority irq library.o
+        28         12          0          4          0          0   afhds3 simple random number library.o
+       400         48          0          0          0          0   encryption library.o
+      1312        130          0          0         84          0   new port.o
+      2692        160          3          0          2          0   npt i-bus 1.o
+      6220        176          3          0          2          0   npt i-bus 2.o
+       372         12          0          0       1502          0   npt i-bus common.o
+       416         36          0          0         48          0   npt ppm.o
+      1316         48         36          0         48          0   npt pwm.o
+       392         36          3          0         30          0   npt s-bus.o
+       536         20          0          0         20          0   npt ws.o
+        86          0          0          0          0          0   __dczerorl2.o
+         8          0          0          0          0          0   __main.o
+         0          0          0          0          0          0   __rtentry.o
+        12          0          0          0          0          0   __rtentry2.o
+         6          0          0          0          0          0   __rtentry4.o
+        60          8          0          0          0          0   __scatter.o
+        28          0          0          0          0          0   __scatter_zi.o
+       502          0          0          0          0          0   aeabi_sdivfast.o
+        16          0          0          0          0          0   exit.o
+         6          0          0          0          0          0   heapauxi.o
+         0          0          0          0          0          0   indicate_semi.o
+         2          0          0          0          0          0   libinit.o
+         2          0          0          0          0          0   libinit2.o
+         2          0          0          0          0          0   libshutdown.o
+         2          0          0          0          0          0   libshutdown2.o
+         8          4          0          0         96          0   libspace.o
+        48          0          0          0          0          0   llmul.o
+       272          0          0          0          0          0   lludiv.o
+        34          0          0          0          0          0   llushr.o
+        90          0          0          0          0          0   memcmp.o
+        64          0          0          0          0          0   rt_memclr.o
+       186          0          0          0          0          0   rt_memcpy.o
+         2          0          0          0          0          0   rtexit.o
+        10          0          0          0          0          0   rtexit2.o
+        12          4          0          0          0          0   sys_exit.o
+        62          0          0          0          0          0   sys_stackheap_outer.o
+         2          0          0          0          0          0   use_no_semi.o
+      1444         90          0          0         80          0   i-bus 1 device library.o
+       992         52          3          0         74          0   i-bus 2 device library.o
+
+    ----------------------------------------------------------------------
+     38764       1882       1819         44       3968          0   Library Totals
+        10          0         10          1          4          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+        80          8       1280          0          0          0   AFHDS3 CRC library M0+ release.lib
+       286          0          0          0          0          0   AFHDS3 PWM frequencies packing library M0+ release.lib
+       892         24        192          0          0          0   AFHDS3 RC channels packing library M0+ release.lib
+     19486       1002        289         39       1554          0   AFHDS3 SX1280 receiver V1 M0+ release.lib
+       180          4          0          0        100          0   AFHDS3 queue low priority IRQ library 8Q4Q M0+ release.lib
+       188          8          0          0        324          0   AFHDS3 queue medium priority IRQ library 8Q32Q M0+ release.lib
+        28         12          0          4          0          0   AFHDS3 simple random number library M0+ release.lib
+       400         48          0          0          0          0   Encryption library M0 release.lib
+     13256        618         45          0       1736          0   New Port 4 channels 4 ports M0+ release.lib
+      1522         16          0          0         96          0   c_p.l
+      1444         90          0          0         80          0   i-Bus 1 device library M0+ release.lib
+       992         52          3          0         74          0   i-Bus 2 device library M0+ release.lib
+
+    ----------------------------------------------------------------------
+     38764       1882       1819         44       3968          0   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+     55420       3946       2412        420       6820          0   Grand Totals
+     55420       3946       2412        232       6820          0   ELF Image Totals (compressed)
+     55420       3946       2412        232          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                57832 (  56.48kB)
+    Total RW  Size (RW Data + ZI Data)              7240 (   7.07kB)
+    Total ROM Size (Code + RO Data + RW Data)      58064 (  56.70kB)
+
+==============================================================================
+

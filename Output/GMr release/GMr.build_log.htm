@@ -1,0 +1,116 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 2 1, 3, LIC=BL28G-VMRMN-LVS1I-T83DP-QW6ZP-DP2ZI
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DARMCM1.DLL V1.19.1.0
+Target DLL:      UL2CM3.DLL V1.160.12.0
+Dialog DLL:      TARMCM1.DLL V1.14.0.0
+ 
+<h2>Project:</h2>
+C:\Users\dengqi\Desktop\work_test\trunk\AFHDS3 receiver V1\Firmware\AFHDS3 receiver V1.uvprojx
+Project File Date:  11/05/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'GMr release'
+assembling startup_stm32f051x8.s...
+compiling ADC.c...
+compiling EEPROM.c...
+compiling Encryption.c...
+compiling SPI SX1280.c...
+compiling Flash.c...
+compiling GyroGMr.c...
+compiling I2C.c...
+I2C.c(180): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wcast-qual"
+I2C.c(182): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wcast-qual"
+I2C.c(13): warning:  #550-D: variable "I2C_Initialized"  was set but never used
+  static BOOL I2C_Initialized;
+I2C.c: 3 warnings, 0 errors
+compiling LNK timer.c...
+compiling LED.c...
+compiling Main.c...
+Main.c(1119): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1121): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(1145): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1147): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(1268): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1270): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(1315): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1317): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(1384): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1386): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(1409): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-parameter"
+Main.c(1411): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-parameter"
+Main.c(104): warning:  #550-D: variable "APP_ActivateReceiverRole"  was set but never used
+  static eLNK_ReceiverRole APP_ActivateReceiverRole;
+Main.c: 13 warnings, 0 errors
+compiling NPT timer.c...
+compiling System.c...
+System.c(357): warning:  #1461-D: function declared with "noreturn" does return
+  }
+System.c: 1 warning, 0 errors
+compiling System receiver.c...
+..\System receiver.c(15): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic ignored "-Wunused-const-variable"
+..\System receiver.c(200): warning:  #161-D: unrecognized #pragma
+  #pragma clang diagnostic warning "-Wunused-const-variable"
+..\System receiver.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=36436 RO-data=2288 RW-data=432 ZI-data=5000  
+FromELF: creating hex file...
+After Build - User command #1: cmd /c "Post GMr release.bat"
+"..\..\Output\GMr release\GMr.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F0xx_DFP.2.0.0.pack
+                Keil.STM32F0xx_DFP.2.0.0
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_GMr_release
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

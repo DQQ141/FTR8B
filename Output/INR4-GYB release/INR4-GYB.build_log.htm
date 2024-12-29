@@ -1,0 +1,403 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 flysky, 2, LIC=IK1BF-6B2AN-Z9ZG9-47W3N-7KGD7-JCBRX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.9
+Assembler:       Armasm.exe V6.9
+Linker/Locator:  ArmLink.exe V6.9
+Library Manager: ArmAr.exe V6.9
+Hex Converter:   FromElf.exe V6.9
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DARMCM1.DLL V1.19.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TARMCM1.DLL V1.14.0.0
+ 
+<h2>Project:</h2>
+C:\Users\liangjie.FLYSKY\Desktop\6887P\FS-AFHDS3-Receiver-Nport2.0\trunk\AFHDS3 receiver V1\Firmware\AFHDS3 receiver V1.uvprojx
+Project File Date:  03/03/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.9', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'INR4-GYB release'
+assembling startup_stm32g070xx.s...
+compiling ADC.c...
+ADC.c(8): warning: In file included from...
+./Main.h(7): warning: In file included from...
+../../Include\i-Bus 2 device library.h(10): warning: redefinition of typedef 'tUSART_ReceiveCallback' is a C11 feature [-Wtypedef-redefinition]
+typedef void tUSART_ReceiveCallback(unsigned long NbReceivedBytes);
+             ^
+../../Include\i-Bus 1 device library.h(11): note: previous definition is here
+typedef void tUSART_ReceiveCallback(unsigned long NbReceivedBytes);
+             ^
+ADC.c(8): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(10): warning: In file included from...
+../../Include/TRA AFHDS3.h(5): warning: In file included from...
+../../Include/LNK AFHDS3.h(76): warning: redefinition of typedef 'sLNK_BlackBoxData' is a C11 feature [-Wtypedef-redefinition]
+} sLNK_BlackBoxData;
+  ^
+../../Include/LNK AFHDS3.h(25): note: previous definition is here
+typedef struct tLNK_BlackBoxData sLNK_BlackBoxData;
+                                 ^
+../../Include/LNK AFHDS3.h(165): warning: redefinition of typedef 'uLNK_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} uLNK_BoundConfig;
+  ^
+../../Include/LNK AFHDS3.h(24): note: previous definition is here
+typedef union tLNK_BoundConfig uLNK_BoundConfig;
+                               ^
+ADC.c(8): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(10): warning: In file included from...
+../../Include/TRA AFHDS3.h(51): warning: redefinition of typedef 'sTRA_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_BoundConfig;
+  ^
+../../Include/TRA AFHDS3.h(9): note: previous definition is here
+typedef struct tTRA_BoundConfig sTRA_BoundConfig;
+                                ^
+../../Include/TRA AFHDS3.h(70): warning: redefinition of typedef 'sTRA_RunApp' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_RunApp;
+  ^
+../../Include/TRA AFHDS3.h(28): note: previous definition is here
+typedef struct tTRA_RunApp sTRA_RunApp;
+                           ^
+../../Include/TRA AFHDS3.h(80): warning: redefinition of typedef 'sTRA_RunUp' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_RunUp;
+  ^
+../../Include/TRA AFHDS3.h(35): note: previous definition is here
+typedef struct tTRA_RunUp sTRA_RunUp;
+                          ^
+ADC.c(8): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(619): warning: redefinition of typedef 'sSES_Command' is a C11 feature [-Wtypedef-redefinition]
+} sSES_Command;
+  ^
+../../Include\SES AFHDS3.h(14): note: previous definition is here
+typedef struct tSES_Command sSES_Command;
+                            ^
+../../Include\SES AFHDS3.h(637): warning: redefinition of typedef 'sSES_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} sSES_BoundConfig;
+  ^
+../../Include\SES AFHDS3.h(13): note: previous definition is here
+typedef struct tSES_BoundConfig sSES_BoundConfig;
+                                ^
+../../Include\SES AFHDS3.h(669): warning: redefinition of typedef 'sSES_Run' is a C11 feature [-Wtypedef-redefinition]
+} sSES_Run;
+  ^
+../../Include\SES AFHDS3.h(621): note: previous definition is here
+typedef struct tSES_Run sSES_Run;
+                        ^
+9 warnings generated.
+compiling EEPROM.c...
+compiling Encryption.c...
+compiling SPI SX1280.c...
+compiling Flash.c...
+compiling Gyro.c...
+Gyro.c(6): warning: In file included from...
+./Main.h(7): warning: In file included from...
+../../Include\i-Bus 2 device library.h(10): warning: redefinition of typedef 'tUSART_ReceiveCallback' is a C11 feature [-Wtypedef-redefinition]
+typedef void tUSART_ReceiveCallback(unsigned long NbReceivedBytes);
+             ^
+../../Include\i-Bus 1 device library.h(11): note: previous definition is here
+typedef void tUSART_ReceiveCallback(unsigned long NbReceivedBytes);
+             ^
+Gyro.c(6): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(10): warning: In file included from...
+../../Include/TRA AFHDS3.h(5): warning: In file included from...
+../../Include/LNK AFHDS3.h(76): warning: redefinition of typedef 'sLNK_BlackBoxData' is a C11 feature [-Wtypedef-redefinition]
+} sLNK_BlackBoxData;
+  ^
+../../Include/LNK AFHDS3.h(25): note: previous definition is here
+typedef struct tLNK_BlackBoxData sLNK_BlackBoxData;
+                                 ^
+../../Include/LNK AFHDS3.h(165): warning: redefinition of typedef 'uLNK_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} uLNK_BoundConfig;
+  ^
+../../Include/LNK AFHDS3.h(24): note: previous definition is here
+typedef union tLNK_BoundConfig uLNK_BoundConfig;
+                               ^
+Gyro.c(6): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(10): warning: In file included from...
+../../Include/TRA AFHDS3.h(51): warning: redefinition of typedef 'sTRA_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_BoundConfig;
+  ^
+../../Include/TRA AFHDS3.h(9): note: previous definition is here
+typedef struct tTRA_BoundConfig sTRA_BoundConfig;
+                                ^
+../../Include/TRA AFHDS3.h(70): warning: redefinition of typedef 'sTRA_RunApp' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_RunApp;
+  ^
+../../Include/TRA AFHDS3.h(28): note: previous definition is here
+typedef struct tTRA_RunApp sTRA_RunApp;
+                           ^
+../../Include/TRA AFHDS3.h(80): warning: redefinition of typedef 'sTRA_RunUp' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_RunUp;
+  ^
+../../Include/TRA AFHDS3.h(35): note: previous definition is here
+typedef struct tTRA_RunUp sTRA_RunUp;
+                          ^
+Gyro.c(6): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(619): warning: redefinition of typedef 'sSES_Command' is a C11 feature [-Wtypedef-redefinition]
+} sSES_Command;
+  ^
+../../Include\SES AFHDS3.h(14): note: previous definition is here
+typedef struct tSES_Command sSES_Command;
+                            ^
+../../Include\SES AFHDS3.h(637): warning: redefinition of typedef 'sSES_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} sSES_BoundConfig;
+  ^
+../../Include\SES AFHDS3.h(13): note: previous definition is here
+typedef struct tSES_BoundConfig sSES_BoundConfig;
+                                ^
+../../Include\SES AFHDS3.h(669): warning: redefinition of typedef 'sSES_Run' is a C11 feature [-Wtypedef-redefinition]
+} sSES_Run;
+  ^
+../../Include\SES AFHDS3.h(621): note: previous definition is here
+typedef struct tSES_Run sSES_Run;
+                        ^
+9 warnings generated.
+compiling PID FC.c...
+compiling I2C.c...
+compiling LNK timer.c...
+compiling LED.c...
+compiling Main.c...
+Main.c(29): warning: In file included from...
+./Main.h(7): warning: In file included from...
+../../Include\i-Bus 2 device library.h(10): warning: redefinition of typedef 'tUSART_ReceiveCallback' is a C11 feature [-Wtypedef-redefinition]
+typedef void tUSART_ReceiveCallback(unsigned long NbReceivedBytes);
+             ^
+../../Include\i-Bus 1 device library.h(11): note: previous definition is here
+typedef void tUSART_ReceiveCallback(unsigned long NbReceivedBytes);
+             ^
+Main.c(29): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(10): warning: In file included from...
+../../Include/TRA AFHDS3.h(5): warning: In file included from...
+../../Include/LNK AFHDS3.h(76): warning: redefinition of typedef 'sLNK_BlackBoxData' is a C11 feature [-Wtypedef-redefinition]
+} sLNK_BlackBoxData;
+  ^
+../../Include/LNK AFHDS3.h(25): note: previous definition is here
+typedef struct tLNK_BlackBoxData sLNK_BlackBoxData;
+                                 ^
+../../Include/LNK AFHDS3.h(165): warning: redefinition of typedef 'uLNK_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} uLNK_BoundConfig;
+  ^
+../../Include/LNK AFHDS3.h(24): note: previous definition is here
+typedef union tLNK_BoundConfig uLNK_BoundConfig;
+                               ^
+Main.c(29): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(10): warning: In file included from...
+../../Include/TRA AFHDS3.h(51): warning: redefinition of typedef 'sTRA_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_BoundConfig;
+  ^
+../../Include/TRA AFHDS3.h(9): note: previous definition is here
+typedef struct tTRA_BoundConfig sTRA_BoundConfig;
+                                ^
+../../Include/TRA AFHDS3.h(70): warning: redefinition of typedef 'sTRA_RunApp' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_RunApp;
+  ^
+../../Include/TRA AFHDS3.h(28): note: previous definition is here
+typedef struct tTRA_RunApp sTRA_RunApp;
+                           ^
+../../Include/TRA AFHDS3.h(80): warning: redefinition of typedef 'sTRA_RunUp' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_RunUp;
+  ^
+../../Include/TRA AFHDS3.h(35): note: previous definition is here
+typedef struct tTRA_RunUp sTRA_RunUp;
+                          ^
+Main.c(29): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(619): warning: redefinition of typedef 'sSES_Command' is a C11 feature [-Wtypedef-redefinition]
+} sSES_Command;
+  ^
+../../Include\SES AFHDS3.h(14): note: previous definition is here
+typedef struct tSES_Command sSES_Command;
+                            ^
+../../Include\SES AFHDS3.h(637): warning: redefinition of typedef 'sSES_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} sSES_BoundConfig;
+  ^
+../../Include\SES AFHDS3.h(13): note: previous definition is here
+typedef struct tSES_BoundConfig sSES_BoundConfig;
+                                ^
+../../Include\SES AFHDS3.h(669): warning: redefinition of typedef 'sSES_Run' is a C11 feature [-Wtypedef-redefinition]
+} sSES_Run;
+  ^
+../../Include\SES AFHDS3.h(621): note: previous definition is here
+typedef struct tSES_Run sSES_Run;
+                        ^
+9 warnings generated.
+compiling NPT timer.c...
+compiling PWM adapter.c...
+PWM adapter.c(13): warning: In file included from...
+./Main.h(7): warning: In file included from...
+../../Include\i-Bus 2 device library.h(10): warning: redefinition of typedef 'tUSART_ReceiveCallback' is a C11 feature [-Wtypedef-redefinition]
+typedef void tUSART_ReceiveCallback(unsigned long NbReceivedBytes);
+             ^
+../../Include\i-Bus 1 device library.h(11): note: previous definition is here
+typedef void tUSART_ReceiveCallback(unsigned long NbReceivedBytes);
+             ^
+PWM adapter.c(13): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(10): warning: In file included from...
+../../Include/TRA AFHDS3.h(5): warning: In file included from...
+../../Include/LNK AFHDS3.h(76): warning: redefinition of typedef 'sLNK_BlackBoxData' is a C11 feature [-Wtypedef-redefinition]
+} sLNK_BlackBoxData;
+  ^
+../../Include/LNK AFHDS3.h(25): note: previous definition is here
+typedef struct tLNK_BlackBoxData sLNK_BlackBoxData;
+                                 ^
+../../Include/LNK AFHDS3.h(165): warning: redefinition of typedef 'uLNK_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} uLNK_BoundConfig;
+  ^
+../../Include/LNK AFHDS3.h(24): note: previous definition is here
+typedef union tLNK_BoundConfig uLNK_BoundConfig;
+                               ^
+PWM adapter.c(13): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(10): warning: In file included from...
+../../Include/TRA AFHDS3.h(51): warning: redefinition of typedef 'sTRA_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_BoundConfig;
+  ^
+../../Include/TRA AFHDS3.h(9): note: previous definition is here
+typedef struct tTRA_BoundConfig sTRA_BoundConfig;
+                                ^
+../../Include/TRA AFHDS3.h(70): warning: redefinition of typedef 'sTRA_RunApp' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_RunApp;
+  ^
+../../Include/TRA AFHDS3.h(28): note: previous definition is here
+typedef struct tTRA_RunApp sTRA_RunApp;
+                           ^
+../../Include/TRA AFHDS3.h(80): warning: redefinition of typedef 'sTRA_RunUp' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_RunUp;
+  ^
+../../Include/TRA AFHDS3.h(35): note: previous definition is here
+typedef struct tTRA_RunUp sTRA_RunUp;
+                          ^
+PWM adapter.c(13): warning: In file included from...
+./Main.h(10): warning: In file included from...
+../../Include\SES AFHDS3.h(619): warning: redefinition of typedef 'sSES_Command' is a C11 feature [-Wtypedef-redefinition]
+} sSES_Command;
+  ^
+../../Include\SES AFHDS3.h(14): note: previous definition is here
+typedef struct tSES_Command sSES_Command;
+                            ^
+../../Include\SES AFHDS3.h(637): warning: redefinition of typedef 'sSES_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} sSES_BoundConfig;
+  ^
+../../Include\SES AFHDS3.h(13): note: previous definition is here
+typedef struct tSES_BoundConfig sSES_BoundConfig;
+                                ^
+../../Include\SES AFHDS3.h(669): warning: redefinition of typedef 'sSES_Run' is a C11 feature [-Wtypedef-redefinition]
+} sSES_Run;
+  ^
+../../Include\SES AFHDS3.h(621): note: previous definition is here
+typedef struct tSES_Run sSES_Run;
+                        ^
+9 warnings generated.
+compiling System.c...
+System.c(19): warning: In file included from...
+../../Include\i-Bus 2 device library.h(10): warning: redefinition of typedef 'tUSART_ReceiveCallback' is a C11 feature [-Wtypedef-redefinition]
+typedef void tUSART_ReceiveCallback(unsigned long NbReceivedBytes);
+             ^
+../../Include\i-Bus 1 device library.h(11): note: previous definition is here
+typedef void tUSART_ReceiveCallback(unsigned long NbReceivedBytes);
+             ^
+System.c(23): warning: In file included from...
+../../Include\SES AFHDS3.h(10): warning: In file included from...
+../../Include/TRA AFHDS3.h(5): warning: In file included from...
+../../Include/LNK AFHDS3.h(76): warning: redefinition of typedef 'sLNK_BlackBoxData' is a C11 feature [-Wtypedef-redefinition]
+} sLNK_BlackBoxData;
+  ^
+../../Include/LNK AFHDS3.h(25): note: previous definition is here
+typedef struct tLNK_BlackBoxData sLNK_BlackBoxData;
+                                 ^
+../../Include/LNK AFHDS3.h(165): warning: redefinition of typedef 'uLNK_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} uLNK_BoundConfig;
+  ^
+../../Include/LNK AFHDS3.h(24): note: previous definition is here
+typedef union tLNK_BoundConfig uLNK_BoundConfig;
+                               ^
+System.c(23): warning: In file included from...
+../../Include\SES AFHDS3.h(10): warning: In file included from...
+../../Include/TRA AFHDS3.h(51): warning: redefinition of typedef 'sTRA_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_BoundConfig;
+  ^
+../../Include/TRA AFHDS3.h(9): note: previous definition is here
+typedef struct tTRA_BoundConfig sTRA_BoundConfig;
+                                ^
+../../Include/TRA AFHDS3.h(70): warning: redefinition of typedef 'sTRA_RunApp' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_RunApp;
+  ^
+../../Include/TRA AFHDS3.h(28): note: previous definition is here
+typedef struct tTRA_RunApp sTRA_RunApp;
+                           ^
+../../Include/TRA AFHDS3.h(80): warning: redefinition of typedef 'sTRA_RunUp' is a C11 feature [-Wtypedef-redefinition]
+} sTRA_RunUp;
+  ^
+../../Include/TRA AFHDS3.h(35): note: previous definition is here
+typedef struct tTRA_RunUp sTRA_RunUp;
+                          ^
+System.c(23): warning: In file included from...
+../../Include\SES AFHDS3.h(619): warning: redefinition of typedef 'sSES_Command' is a C11 feature [-Wtypedef-redefinition]
+} sSES_Command;
+  ^
+../../Include\SES AFHDS3.h(14): note: previous definition is here
+typedef struct tSES_Command sSES_Command;
+                            ^
+../../Include\SES AFHDS3.h(637): warning: redefinition of typedef 'sSES_BoundConfig' is a C11 feature [-Wtypedef-redefinition]
+} sSES_BoundConfig;
+  ^
+../../Include\SES AFHDS3.h(13): note: previous definition is here
+typedef struct tSES_BoundConfig sSES_BoundConfig;
+                                ^
+../../Include\SES AFHDS3.h(669): warning: redefinition of typedef 'sSES_Run' is a C11 feature [-Wtypedef-redefinition]
+} sSES_Run;
+  ^
+../../Include\SES AFHDS3.h(621): note: previous definition is here
+typedef struct tSES_Run sSES_Run;
+                        ^
+9 warnings generated.
+compiling System receiver.c...
+compiling USART New Port.c...
+linking...
+Program Size: Code=65188 RO-data=2496 RW-data=572 ZI-data=7172  
+FromELF: creating hex file...
+After Build - User command #1: cmd /c "Post INR4-GYB release.bat"
+"..\..\Output\INR4-GYB release\INR4-GYB.axf" - 0 Error(s), 45 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32G0xx_DFP.1.4.0.pack
+                Keil.STM32G0xx_DFP.1.4.0
+                STMicroelectronics STM32G0 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_INR4-GYB_release
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

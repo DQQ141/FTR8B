@@ -1,0 +1,8 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c
+-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar
+-O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../.. -I ../../Include -I "../../AFHDS3 receiver V1"
+-I./RTE/_INR4-GYB_release
+-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+-IC:/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.4.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include
+-D__UVISION_VERSION="525" -D_RTE_ -DSTM32G070xx -DPN_INR4_GYB -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="4" -DSES_NPT_NB_PORTS="4"
+-o "../../output/inr4-gyb release/usart new port.o" -MD "USART New Port.c"

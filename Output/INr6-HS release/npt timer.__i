@@ -1,0 +1,8 @@
+-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c
+-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar
+-Ofast -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I . -I ../include -I ../.. -I ../../Include -I "../../AFHDS3 receiver V1"
+-I./RTE/_INr6-HS_release
+-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include
+-IC:/Users/yangkunlin/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include
+-D__UVISION_VERSION="532" -D_RTE_ -DSTM32G071xx -D_RTE_ -DPN_INR6_HS -DAFHDS3_VERSION="1" -DROLE_RX -DPHY_SX1280 -DNPT_NB_CHANNELS="6" -DSES_NPT_NB_PORTS="4"
+-o "../../output/inr6-hs release/npt timer.o" -MD "NPT timer.c"
